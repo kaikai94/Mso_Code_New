@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{c900b972-db25-4ec7-84dc-38fac4047d9a}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{61a746f1-0d00-4ced-b4df-c9fa46258e1c}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="map">
+      <UniqueIdentifier>{6e34390d-1ced-419e-b3cb-0d5fb3567554}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="map\myself97">
+      <UniqueIdentifier>{03990902-51c6-4aba-9221-a483aa823b1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="map\myself97\충돌처리">
+      <UniqueIdentifier>{5cebb11c-663d-4fb4-bf6c-ace2b333b4f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="map\myself97\StaticTree">
+      <UniqueIdentifier>{bb970e15-d748-40bd-a72e-43ec998d530b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="executive">
+      <UniqueIdentifier>{4b0c078f-f7fb-4ff9-9d5d-e8c167e6dde0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="misc">
+      <UniqueIdentifier>{3cbad970-3ce6-40ae-b971-cb34a2f8d34e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM Interface">
+      <UniqueIdentifier>{e5576f5b-b25f-4055-b148-6c6c89572413}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object">
+      <UniqueIdentifier>{5e0638e8-a5dc-4312-a834-6f3736f59f3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShadeManager">
+      <UniqueIdentifier>{79ca948d-1778-48b2-be62-75f88d480733}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{9a2a04e1-1c19-439c-a414-ecd8e62bf48d}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="4DyuchiGXEXECUTIVE.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\4DyuchiGRX_common\math.inl">
+      <Filter>misc</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="factory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GXDefault.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map.cpp">
+      <Filter>map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\4DyuchiGRX_myself97\CheckClock.cpp">
+      <Filter>map\myself97</Filter>
+    </ClCompile>
+    <ClCompile Include="..\4DyuchiGRX_myself97\Logger.cpp">
+      <Filter>map\myself97</Filter>
+    </ClCompile>
+    <ClCompile Include="..\4DyuchiGRX_myself97\MClipper.cpp">
+      <Filter>map\myself97</Filter>
+    </ClCompile>
+    <ClCompile Include="..\4DyuchiGRX_myself97\Myself97Common.cpp">
+      <Filter>map\myself97</Filter>
+    </ClCompile>
+    <ClCompile Include="..\4DyuchiGRX_myself97\TriangleLib.cpp">
+      <Filter>map\myself97</Filter>
+    </ClCompile>
+    <ClCompile Include="..\4DYUCHIGRX_MYSELF97\CollisionTest\AAEllipsoidCollisionTest.cpp">
+      <Filter>map\myself97\충돌처리</Filter>
+    </ClCompile>
+    <ClCompile Include="..\4DYUCHIGRX_MYSELF97\CollisionTest\CollisionTestMovingEllipsoidMeetTriangle.cpp">
+      <Filter>map\myself97\충돌처리</Filter>
+    </ClCompile>
+    <ClCompile Include="..\4DYUCHIGRX_MYSELF97\CollisionTest\CollisionTestMovingSphereMeetTriangle.cpp">
+      <Filter>map\myself97\충돌처리</Filter>
+    </ClCompile>
+    <ClCompile Include="..\4DyuchiGRX_myself97\CollisionTest\DummyCollisionTest.cpp">
+      <Filter>map\myself97\충돌처리</Filter>
+    </ClCompile>
+    <ClCompile Include="..\4DyuchiGRX_myself97\CollisionTest\SphereCollisionTest.cpp">
+      <Filter>map\myself97\충돌처리</Filter>
+    </ClCompile>
+    <ClCompile Include="..\4DyuchiGRX_myself97\MStaticObjectTree.cpp">
+      <Filter>map\myself97\StaticTree</Filter>
+    </ClCompile>
+    <ClCompile Include="executive.cpp">
+      <Filter>executive</Filter>
+    </ClCompile>
+    <ClCompile Include="GXDecal.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="GXEventTriggerObject.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="GXHFieldMapObject.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="GXLight.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="GXMapObject.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="GXObject.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="GXStaticMapObject.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadeManager.cpp">
+      <Filter>ShadeManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Script1.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="factory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\4DyuchiGRX_common\FileStorage_typedef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="global_variable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GXDefault.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map.h">
+      <Filter>map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\4DyuchiGRX_myself97\CheckClock.h">
+      <Filter>map\myself97</Filter>
+    </ClInclude>
+    <ClInclude Include="..\4DyuchiGRX_myself97\logger.h">
+      <Filter>map\myself97</Filter>
+    </ClInclude>
+    <ClInclude Include="..\4DyuchiGRX_myself97\MClipper.h">
+      <Filter>map\myself97</Filter>
+    </ClInclude>
+    <ClInclude Include="..\4DyuchiGRX_myself97\Myself97Common.h">
+      <Filter>map\myself97</Filter>
+    </ClInclude>
+    <ClInclude Include="..\4DyuchiGRX_myself97\TriangleLib.h">
+      <Filter>map\myself97</Filter>
+    </ClInclude>
+    <ClInclude Include="..\4DYUCHIGRX_MYSELF97\CollisionTest\AAEllipsoidCollisionTest.h">
+      <Filter>map\myself97\충돌처리</Filter>
+    </ClInclude>
+    <ClInclude Include="..\4DYUCHIGRX_MYSELF97\CollisionTest\CollisionTestMovingEllipsoidMeetTriangle.h">
+      <Filter>map\myself97\충돌처리</Filter>
+    </ClInclude>
+    <ClInclude Include="..\4DYUCHIGRX_MYSELF97\CollisionTest\CollisionTestMovingSphereMeetTriangle.h">
+      <Filter>map\myself97\충돌처리</Filter>
+    </ClInclude>
+    <ClInclude Include="..\4DyuchiGRX_myself97\CollisionTest\DummyCollisionTest.h">
+      <Filter>map\myself97\충돌처리</Filter>
+    </ClInclude>
+    <ClInclude Include="..\4DyuchiGRX_myself97\CollisionTest\SphereCollisionTest.h">
+      <Filter>map\myself97\충돌처리</Filter>
+    </ClInclude>
+    <ClInclude Include="..\4DyuchiGRX_myself97\MStaticObjectTree.h">
+      <Filter>map\myself97\StaticTree</Filter>
+    </ClInclude>
+    <ClInclude Include="executive.h">
+      <Filter>executive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\4DyuchiGXGFunc\global.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\4DYUCHIGRX_COMMON\GXSCHEDULE_PROC_MSG.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\4DyuchiGRX_common\mesh_flag.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\4DyuchiGRX_common\typedef.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\4DyuchiGRX_common\IExecutive.h">
+      <Filter>COM Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\4DyuchiGRX_common\IExecutive_GUID.h">
+      <Filter>COM Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\4DyuchiGRX_common\IFileStorage.h">
+      <Filter>COM Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\4DyuchiGRX_common\IGeometry.h">
+      <Filter>COM Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\4DyuchiGRX_common\IGeometry_GUID.h">
+      <Filter>COM Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\4DyuchiGRX_common\IRenderer.h">
+      <Filter>COM Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\4DyuchiGRX_common\IRenderer_GUID.h">
+      <Filter>COM Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="GXDecal.h">
+      <Filter>object</Filter>
+    </ClInclude>
+    <ClInclude Include="GXEventTriggerObject.h">
+      <Filter>object</Filter>
+    </ClInclude>
+    <ClInclude Include="GXHFieldMapObject.h">
+      <Filter>object</Filter>
+    </ClInclude>
+    <ClInclude Include="GXLight.h">
+      <Filter>object</Filter>
+    </ClInclude>
+    <ClInclude Include="GXMapObject.h">
+      <Filter>object</Filter>
+    </ClInclude>
+    <ClInclude Include="GXObject.h">
+      <Filter>object</Filter>
+    </ClInclude>
+    <ClInclude Include="GXStaticMapObject.h">
+      <Filter>object</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadeManager.h">
+      <Filter>ShadeManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,14 @@
+﻿Build started 28/1/2022 11:16:55 AM.
+     1>Project "D:\Mso_NEW\Mso_Code\[Lib]HSEL\HSEL.vcxproj" on node 4 (Rebuild target(s)).
+     1>ClCompile:
+         D:\Software\VS 2013\VC\bin\CL.exe /c /Zi /nologo /W3 /WX /O2 /Ob1 /Oy- /D CODE_ANALYSIS /D WIN32 /D NDEBUG /D _LIB /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Release/HSEL.pch.codeanalysis" /Fo".\Release/" /Fd".\Release/vc120.pdb" /FR".\Release\\" /Gd /TP /analyze /analyze:plugin"D:\Software\VS 2013\VC\\bin\localespc.dll" /errorReport:prompt   /analyze:quiet StdAfx.cpp
+         StdAfx.cpp
+     1>D:\Software\VS 2013\VC\atlmfc\include\afx.h(38): error C2220: warning treated as error - no 'object' file generated
+     1>D:\Software\VS 2013\VC\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+                 D:\Software\VS 2013\VC\atlmfc\include\afx.h(33) : see declaration of 'MBCS_Support_Deprecated_In_MFC'
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+     1>Done Building Project "D:\Mso_NEW\Mso_Code\[Lib]HSEL\HSEL.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.25

@@ -1,0 +1,10 @@
+
+LIBRARY     MHConsold.dll
+
+DESCRIPTION '2004.4. MHConsole by taiyo'
+
+EXPORTS
+  DllGetClassObject		 PRIVATE
+  DllCanUnloadNow		 PRIVATE
+  DllRegisterServer		 PRIVATE
+  DllUnregisterServer	 PRIVATE

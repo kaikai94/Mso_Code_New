@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="主对话框">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="公共类">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="地图管理">
+      <UniqueIdentifier>{405184d4-8498-4f9a-92bd-f1bd86f60e69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="配置设置">
+      <UniqueIdentifier>{d6522974-8e3d-4cb1-aa93-9bb85ada0cee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="账号管理">
+      <UniqueIdentifier>{f714dd47-d7ed-4810-aa00-c053e1db5b67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="角色管理">
+      <UniqueIdentifier>{9e674ddc-0016-41d5-8fbd-5f888c453fc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="物品管理">
+      <UniqueIdentifier>{52df2ab5-ad30-4d2c-9453-b301334b3d44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="元宝交易管理">
+      <UniqueIdentifier>{4b3a8772-93ed-4e39-b744-b28c53a62d71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="服务端小工具">
+      <UniqueIdentifier>{a8cd27c1-7fa5-4998-b736-74575515ad2b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GMManagerToolDlg.h">
+      <Filter>主对话框</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>主对话框</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>主对话框</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>主对话框</Filter>
+    </ClInclude>
+    <ClInclude Include="GMManagerTool.h">
+      <Filter>公共类</Filter>
+    </ClInclude>
+    <ClInclude Include="MyDBWork.h">
+      <Filter>公共类</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigManager.h">
+      <Filter>配置设置</Filter>
+    </ClInclude>
+    <ClInclude Include="IDManager.h">
+      <Filter>账号管理</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterManager.h">
+      <Filter>角色管理</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemManager.h">
+      <Filter>物品管理</Filter>
+    </ClInclude>
+    <ClInclude Include="GoldLogManager.h">
+      <Filter>元宝交易管理</Filter>
+    </ClInclude>
+    <ClInclude Include="DealManager.h">
+      <Filter>服务端小工具</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemResize.h">
+      <Filter>公共类</Filter>
+    </ClInclude>
+    <ClInclude Include="GoldDealLog.h">
+      <Filter>元宝交易管理</Filter>
+    </ClInclude>
+    <ClInclude Include="PayForGold.h">
+      <Filter>元宝交易管理</Filter>
+    </ClInclude>
+    <ClInclude Include="PayForItem.h">
+      <Filter>元宝交易管理</Filter>
+    </ClInclude>
+    <ClInclude Include="MHFile.h">
+      <Filter>公共类</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5ChecksumDefines.h">
+      <Filter>公共类</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5Checksum.h">
+      <Filter>公共类</Filter>
+    </ClInclude>
+    <ClInclude Include="FileVersion.h">
+      <Filter>公共类</Filter>
+    </ClInclude>
+    <ClInclude Include="cMapManager.h">
+      <Filter>地图管理</Filter>
+    </ClInclude>
+    <ClInclude Include="cMyTime.h">
+      <Filter>地图管理</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GMManagerToolDlg.cpp">
+      <Filter>主对话框</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>主对话框</Filter>
+    </ClCompile>
+    <ClCompile Include="GMManagerTool.cpp">
+      <Filter>公共类</Filter>
+    </ClCompile>
+    <ClCompile Include="MyDBWork.cpp">
+      <Filter>公共类</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigManager.cpp">
+      <Filter>配置设置</Filter>
+    </ClCompile>
+    <ClCompile Include="IDManager.cpp">
+      <Filter>账号管理</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterManager.cpp">
+      <Filter>角色管理</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemManager.cpp">
+      <Filter>物品管理</Filter>
+    </ClCompile>
+    <ClCompile Include="GoldLogManager.cpp">
+      <Filter>元宝交易管理</Filter>
+    </ClCompile>
+    <ClCompile Include="DealManager.cpp">
+      <Filter>服务端小工具</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemResize.cpp">
+      <Filter>公共类</Filter>
+    </ClCompile>
+    <ClCompile Include="GoldDealLog.cpp">
+      <Filter>元宝交易管理</Filter>
+    </ClCompile>
+    <ClCompile Include="PayForGold.cpp">
+      <Filter>元宝交易管理</Filter>
+    </ClCompile>
+    <ClCompile Include="PayForItem.cpp">
+      <Filter>元宝交易管理</Filter>
+    </ClCompile>
+    <ClCompile Include="MHFile.cpp">
+      <Filter>公共类</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5Checksum.cpp">
+      <Filter>公共类</Filter>
+    </ClCompile>
+    <ClCompile Include="FileVersion.cpp">
+      <Filter>公共类</Filter>
+    </ClCompile>
+    <ClCompile Include="cMapManager.cpp">
+      <Filter>地图管理</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GMManagerTool.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GMManagerTool.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\GMManagerTool.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\GMManagerTool1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\BG.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

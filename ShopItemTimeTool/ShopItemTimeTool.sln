@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ShopItemTimeTool", "ShopItemTimeTool\ShopItemTimeTool.vcproj", "{64726386-1D43-4FAE-8FFD-DD2D95354C66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64726386-1D43-4FAE-8FFD-DD2D95354C66}.Debug|Win32.ActiveCfg = Release|Win32
+		{64726386-1D43-4FAE-8FFD-DD2D95354C66}.Debug|Win32.Build.0 = Release|Win32
+		{64726386-1D43-4FAE-8FFD-DD2D95354C66}.Release|Win32.ActiveCfg = Release|Win32
+		{64726386-1D43-4FAE-8FFD-DD2D95354C66}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,45 @@
+
+
+
+
+
+
+
+
+
+
+
+
+// BaseItem.cpp: implementation of the CBaseItem class.
+
+
+//
+
+//////////////////////////////////////////////////////////////////////
+
+
+
+#include "stdafx.h"
+
+#include "BaseItem.h"
+#include "GameIn.h"
+#include "cSendItemInfoDlg.h"
+#include "cWindowManager.h"
+
+//////////////////////////////////////////////////////////////////////
+
+// Construction/Destruction
+
+//////////////////////////////////////////////////////////////////////
+
+
+CBaseItem::CBaseItem()
+{
+
+}
+
+CBaseItem::~CBaseItem()
+{
+
+}
+

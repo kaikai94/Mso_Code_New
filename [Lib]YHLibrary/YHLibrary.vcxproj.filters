@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Network">
+      <UniqueIdentifier>{168795d7-fcd0-4fe3-890b-89323e97e756}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MemoryPool">
+      <UniqueIdentifier>{d0b66d9a-45a9-4981-9760-bf62ee8f3a22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Etc">
+      <UniqueIdentifier>{7edf0a0d-b668-4b2c-a316-78951899964a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileIO">
+      <UniqueIdentifier>{4b964a0f-e355-492e-8a1f-ca42ac35f109}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Encryption">
+      <UniqueIdentifier>{8d5efb22-681a-462c-a8f3-23ca390116b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STL">
+      <UniqueIdentifier>{4d0dd2e7-c047-4308-82fc-24c6568c6abe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseNetworkInterface.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="connection.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="DEFINE.H">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="DESC_BASENETWORK.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="hashtable.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryPool.h">
+      <Filter>MemoryPool</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryPoolTempl.h">
+      <Filter>MemoryPool</Filter>
+    </ClInclude>
+    <ClInclude Include="HSEL.h">
+      <Filter>Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexGenerator.h">
+      <Filter>Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticString.h">
+      <Filter>Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="Strclass.h">
+      <Filter>Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="Fileio.h">
+      <Filter>FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="Encryptor.h">
+      <Filter>Encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="StrTokenizer.h">
+      <Filter>Encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="cConstLinkedList.h">
+      <Filter>STL</Filter>
+    </ClInclude>
+    <ClInclude Include="cLinkedList.h">
+      <Filter>STL</Filter>
+    </ClInclude>
+    <ClInclude Include="cLooseLinkedList.h">
+      <Filter>STL</Filter>
+    </ClInclude>
+    <ClInclude Include="PtrList.h">
+      <Filter>STL</Filter>
+    </ClInclude>
+    <ClInclude Include="Array.h" />
+    <ClInclude Include="YHLibrary.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="connection.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="hashtable.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryPool.cpp">
+      <Filter>MemoryPool</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryPoolTempl.cpp">
+      <Filter>MemoryPool</Filter>
+    </ClCompile>
+    <ClCompile Include="HSEL.cpp">
+      <Filter>Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="Strclass.cpp">
+      <Filter>Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="StrTokenizer.cpp">
+      <Filter>Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="Fileio.cpp">
+      <Filter>FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="Encryptor.cpp">
+      <Filter>Encryption</Filter>
+    </ClCompile>
+    <ClCompile Include="cConstLinkedList.cpp">
+      <Filter>STL</Filter>
+    </ClCompile>
+    <ClCompile Include="cLinkedList.cpp">
+      <Filter>STL</Filter>
+    </ClCompile>
+    <ClCompile Include="cLooseLinkedList.cpp">
+      <Filter>STL</Filter>
+    </ClCompile>
+    <ClCompile Include="PtrList.cpp">
+      <Filter>STL</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="IndexGenerator.lib">
+      <Filter>Etc</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Readme.txt" />
+  </ItemGroup>
+</Project>

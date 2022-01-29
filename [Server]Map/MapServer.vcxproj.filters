@@ -1,0 +1,2419 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4fe07ccf-824d-483b-a0f9-431020b99634}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ObjectFactory">
+      <UniqueIdentifier>{5074be95-69ee-4d10-b35a-9ba4ba85a387}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PackedData">
+      <UniqueIdentifier>{434b1b59-96ee-4b94-9585-2b5842ef0897}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Map">
+      <UniqueIdentifier>{ba0aaea6-cd78-4b78-9e89-2639fc36d689}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem">
+      <UniqueIdentifier>{6ad046e9-214d-4979-8352-b161df6a8cff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\Move">
+      <UniqueIdentifier>{cce0c961-02e1-4a15-8e28-414ac7fa3633}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\Item">
+      <UniqueIdentifier>{eae2b552-e65b-4da6-83eb-bef340634bef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\Item\New">
+      <UniqueIdentifier>{8bf39f86-d54b-486c-b6c1-8f9ec09d5f00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\Item\Money">
+      <UniqueIdentifier>{527f78e1-02e9-4dbf-9cd6-4f2c302e7da6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\Quest">
+      <UniqueIdentifier>{51bd0d6c-aff2-48fe-9568-1697e663daea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\Quest\NewbieGuide">
+      <UniqueIdentifier>{d47ac532-1242-4519-8f0b-047f0d179f93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\Quest\QuestCommon">
+      <UniqueIdentifier>{f086f499-bf31-4119-9b56-bf279d94ba7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\Quest\QuestCommon\QuestLimit">
+      <UniqueIdentifier>{6597dbbd-1cec-49c2-b511-7a3dabcedca7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\Quest\QuestCommon\QuestScript">
+      <UniqueIdentifier>{7a4b7418-52cb-4bb4-9b7a-0bc2c82c5448}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\Quest\QuestCommon\QuestInfo">
+      <UniqueIdentifier>{c2cb9908-a902-47e8-acd7-e918ca25de55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\Quest\QuestCommon\QuestTrigger">
+      <UniqueIdentifier>{4a11ca12-e881-4f7c-a49c-37c9a909f2d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\Quest\QuestCommon\QuestNpcScript">
+      <UniqueIdentifier>{edafbf85-1c8b-4abf-9cd4-c698dc3d9c7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\GridSystem">
+      <UniqueIdentifier>{14e09a26-8232-47ca-bbbf-790c6dbb34f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\Mugong">
+      <UniqueIdentifier>{3d79087b-7b30-4351-9139-85ccf92b0b43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\Economy">
+      <UniqueIdentifier>{d9f4083b-3dff-48a2-b924-759ad780ba66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\Time">
+      <UniqueIdentifier>{dc656703-5e31-42a2-bbe8-6b2b0c7915a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\Auction">
+      <UniqueIdentifier>{59a57d80-927f-4b5f-8542-39cf67a6515b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\Stats">
+      <UniqueIdentifier>{686d8d18-7267-49f8-bbfd-21f593dfa298}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\Char">
+      <UniqueIdentifier>{f0962ecb-73ea-4b77-ad8f-4913db71169b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\Party">
+      <UniqueIdentifier>{ee692b9f-e36f-4027-b349-e35774fe16dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\Party\DistributeWay">
+      <UniqueIdentifier>{f0eb631f-1132-4886-be76-30c95224c05b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\Ungijosik">
+      <UniqueIdentifier>{d6e845d0-4592-4930-88c9-2cd6a1f40f92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\Tactic">
+      <UniqueIdentifier>{da27197c-955e-446d-b655-05fc3a85a033}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\State">
+      <UniqueIdentifier>{0b89c453-2afd-4744-8ac0-6972774f9964}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\Exchange">
+      <UniqueIdentifier>{7ea96e99-b16e-4ca9-ac06-696ac7006f46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\StreeStall">
+      <UniqueIdentifier>{ebcd613a-2e39-48ee-9839-4547b7af5644}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\PyoGuk">
+      <UniqueIdentifier>{be255d04-45f8-4c6d-8456-d614fac8c154}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\KyungGong">
+      <UniqueIdentifier>{1e859dd2-75d1-4455-90f5-b04666b1fdfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\Friend">
+      <UniqueIdentifier>{313c217a-9d85-4544-8aff-4fb6c758b9f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\Fame">
+      <UniqueIdentifier>{108c3bcc-5213-4d85-a47a-46077ccebfd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\Quick">
+      <UniqueIdentifier>{bc15981b-48bc-4666-a4de-77c0c97dc6a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\PKManager">
+      <UniqueIdentifier>{83ff5780-e093-4673-9ca4-e7dc9d390267}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\Channel">
+      <UniqueIdentifier>{af486ef7-b079-4acf-a0da-ddbc12fc9bda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\check">
+      <UniqueIdentifier>{1a1cf507-bc51-4437-b7f9-c06952e66c58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\PeaceWarMode">
+      <UniqueIdentifier>{6b02fe60-f77c-47c9-8ff8-c54fc2fb1904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\Wanted">
+      <UniqueIdentifier>{ca53575d-4b9a-4c51-8dec-66d704dc6e6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\Journal">
+      <UniqueIdentifier>{b377cc8a-b2d6-4510-acd6-e6170e428166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\ItemReinforce">
+      <UniqueIdentifier>{c32b6837-0a6c-4f34-b7b1-ba163bd05aca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\ItemDissolution">
+      <UniqueIdentifier>{75de0a5b-3ab4-4cf8-9d03-d380ba644178}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\SocietyActManager">
+      <UniqueIdentifier>{16c709ab-57c5-40c5-8878-4839625fc412}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\Guild">
+      <UniqueIdentifier>{d4a5952c-42d9-4b7d-afd9-81f4767432b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\Guild\GuildUnion">
+      <UniqueIdentifier>{056d3398-2983-45d2-b181-55f61b54e0a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\Guild\GuildWarehouse">
+      <UniqueIdentifier>{b94c4f97-8ca4-4248-820a-f47ceda4033a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\ChangeItem">
+      <UniqueIdentifier>{9d5fab78-f8f4-4b19-b9b3-a18ab93bc783}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\EventMap">
+      <UniqueIdentifier>{81b8bffb-0368-414d-8380-96bc54bd12d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\GuildFieldWar">
+      <UniqueIdentifier>{64f2b0fd-63c7-4917-a527-cdde330988ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\PartyWar">
+      <UniqueIdentifier>{99b11632-9cc8-4b6b-8834-77409321f0e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\GuildTournamentMgr">
+      <UniqueIdentifier>{0e138a0b-a8e3-454f-9bc1-84392119a15e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\Statistics">
+      <UniqueIdentifier>{48d5ca0c-63ae-4324-a821-2cad654d5cc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\SiegeWarMgr">
+      <UniqueIdentifier>{7d133a80-09f3-4b07-b22c-dba312ab3bf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\Jackpot">
+      <UniqueIdentifier>{51ff4d61-8533-43ad-b1c5-9c02bddd820c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\MonSpeech">
+      <UniqueIdentifier>{e78c5dfd-903e-4382-aa11-575b0ec30c3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\WeatherManager">
+      <UniqueIdentifier>{4d20c268-5d2b-4e8b-b79b-e7add0ca92a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\SurvivalMode">
+      <UniqueIdentifier>{623821b7-1b4b-4706-a381-8aaa4b63c021}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\ItemRareness">
+      <UniqueIdentifier>{2de9f35a-92bb-4526-8d2d-a4442ba624ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\Titan">
+      <UniqueIdentifier>{0e91968b-8dbc-4d7c-a583-abdf1f1b8c36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\BobusangManager">
+      <UniqueIdentifier>{d5cd6d60-8e57-4160-ae7d-93c1b4a53e51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\ItemLimitManager">
+      <UniqueIdentifier>{e4be1bc7-2a64-4587-a972-d3e512cfb93c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\AutoNote">
+      <UniqueIdentifier>{492c9112-c014-49a4-bb1c-a3fddd71064e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem\FortWarManager">
+      <UniqueIdentifier>{fbe1749a-cff5-4936-b066-18808d9d6b15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NewSystem">
+      <UniqueIdentifier>{54e43235-bd3f-4b40-bd9d-e2989316b227}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NewSystem\RechargeRecord">
+      <UniqueIdentifier>{7cdda2f0-5f3e-4803-b1e2-008c5ab847c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NewSystem\SingedManager">
+      <UniqueIdentifier>{fd20a27a-aa78-40b3-a2c9-62823884765a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NewSystem\RestManager">
+      <UniqueIdentifier>{672cd2a4-4822-448e-b1d3-754ddbe61006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NewSystem\KillTopListManager">
+      <UniqueIdentifier>{2aedf259-585c-4baf-8bfc-399255b83886}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NewSystem\LimitItemDropManager">
+      <UniqueIdentifier>{5847ce8d-9c46-48dc-a68b-5304e43e539a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NewSystem\ShopItemLimitManager">
+      <UniqueIdentifier>{e6657e71-a2e1-46d6-be1a-006295de1afe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module">
+      <UniqueIdentifier>{72a9af52-5d1a-43e1-8aee-16f09481d873}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{61c088f3-c27e-4024-9476-c62a499a19e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\TargetList No. 1">
+      <UniqueIdentifier>{0706c842-8695-488b-9d29-56adfd709af7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Skill">
+      <UniqueIdentifier>{7688a0f4-7761-4809-bc68-4f5083637415}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Skill\Area">
+      <UniqueIdentifier>{d80e71ed-9245-4cff-b3aa-3e81e965cbf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Skill\SkillObject">
+      <UniqueIdentifier>{55bf5853-a403-4619-98d8-257e369c6433}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Skill\SkillObject\TargetList">
+      <UniqueIdentifier>{b37194db-e68e-4774-bc2c-3a1a3d08e374}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Skill\SkillObject\SingleUnit">
+      <UniqueIdentifier>{99c2cdb0-9172-4ab1-8c2d-eb405dbac2d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Skill\SkillObject\Terminator">
+      <UniqueIdentifier>{082f7c6f-4cfc-4ffd-b0c1-c4c7c3d56526}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Skill\SkillObject\FirstUnit">
+      <UniqueIdentifier>{6982a0c8-ca32-472e-8225-5bbe161cfc73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Skill\SkillObject\StateUnit">
+      <UniqueIdentifier>{882f4c18-ae57-477c-8d1c-8ab6e3da61b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Skill\SkillObject\AttachUnit">
+      <UniqueIdentifier>{e3c3daba-0278-4c2a-aca2-25e81e8460dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Skill\Status">
+      <UniqueIdentifier>{b1c59f80-3e42-477b-ab46-c9f5cb2f3448}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Skill\Attack">
+      <UniqueIdentifier>{e330ad6e-bdec-4a47-adcf-3d4d9d7c3f4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Skill\SpecialState">
+      <UniqueIdentifier>{8a5c706a-7f5c-45d6-883e-04b84e064d7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{058d37e2-2d75-4e18-81c5-2b67256599d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\BossMonster">
+      <UniqueIdentifier>{a150308b-020e-4f58-a9eb-5a6aa46e0baa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\FieldBossMonster">
+      <UniqueIdentifier>{de2b3314-249b-41c5-b6e2-46a9312cc90e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BattleSystem">
+      <UniqueIdentifier>{1076a114-fcd2-497a-b1c1-b38d0313fca8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BattleSystem\MunpaField">
+      <UniqueIdentifier>{241f7348-390e-41bc-8f9c-e4c86be219d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BattleSystem\BaseBattle">
+      <UniqueIdentifier>{1ffb9251-1d78-432c-8ddd-9d7099fce025}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BattleSystem\VimuStreet">
+      <UniqueIdentifier>{6ccb5b0e-7486-4818-b709-0f5e1415f77f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BattleSystem\MurimField">
+      <UniqueIdentifier>{b3adb7ad-5ae7-4ae8-8af6-fd71c0490759}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BattleSystem\GTournament">
+      <UniqueIdentifier>{918e1a6a-1b85-4baa-bee1-7579748be2b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BattleSystem\Default">
+      <UniqueIdentifier>{9f768135-f640-472b-8eb5-33b68c8214ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BattleSystem\SiegeWar">
+      <UniqueIdentifier>{7ae60f67-25c3-4d02-bda8-94a36f7481fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI">
+      <UniqueIdentifier>{f09b31e0-238c-4215-8676-cde71d2d6117}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\New No. 1">
+      <UniqueIdentifier>{c5464ba4-43c9-4e12-882b-3130ea70400b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineLib">
+      <UniqueIdentifier>{9e4d532c-cdae-49b1-b239-89b4d31939f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineLib\common No. 1">
+      <UniqueIdentifier>{d10aa04e-07e9-4f88-8590-7da4c4e782f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineLib\func">
+      <UniqueIdentifier>{4a093bb4-219a-4f61-b150-3504414400b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineLib\Condition">
+      <UniqueIdentifier>{f12761b4-a4bd-4fbd-9526-c75bf08fb4ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineLib\Condition\ConditionObject">
+      <UniqueIdentifier>{3f11d1d1-6b72-4eb3-8983-1dd54d489485}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Path">
+      <UniqueIdentifier>{88c9d9fb-13c7-4920-953d-9d4c74c2f60c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ability">
+      <UniqueIdentifier>{1907f8b7-3a14-4816-a53f-c0195f4efd2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Suryun">
+      <UniqueIdentifier>{bbaed7c7-5b4d-4b0c-8ca7-9379046d057b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Suryun\Battle Suryun">
+      <UniqueIdentifier>{a092d976-4cd0-49d4-97f9-87f2fd13e973}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Suryun\SuryunRegen">
+      <UniqueIdentifier>{244a30c3-76e2-4dba-9608-95f1e9c94339}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CommonNetworkMsgParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MapChange.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MapDBMsgParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MapNetworkMsgParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryChecker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MHError.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MHFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectFactory.cpp">
+      <Filter>Source Files\ObjectFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="DataBlock.cpp">
+      <Filter>Source Files\PackedData</Filter>
+    </ClCompile>
+    <ClCompile Include="DataBlockManager.cpp">
+      <Filter>Source Files\PackedData</Filter>
+    </ClCompile>
+    <ClCompile Include="PackedData.cpp">
+      <Filter>Source Files\PackedData</Filter>
+    </ClCompile>
+    <ClCompile Include="FixedTile.cpp">
+      <Filter>Source Files\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="FixedTileInfo.cpp">
+      <Filter>Source Files\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MHMap.cpp">
+      <Filter>Source Files\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Source Files\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="TileGroup.cpp">
+      <Filter>Source Files\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="TileManager.cpp">
+      <Filter>Source Files\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="PatternNPC.cpp">
+      <Filter>Source Files\GameSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="RegenNPC.cpp">
+      <Filter>Source Files\GameSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="StateNPC.cpp">
+      <Filter>Source Files\GameSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="CharMove.cpp">
+      <Filter>Source Files\GameSystem\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemDrop.cpp">
+      <Filter>Source Files\GameSystem\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="MapItemDrop.cpp">
+      <Filter>Source Files\GameSystem\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="FortWarWareSlot.cpp">
+      <Filter>Source Files\GameSystem\Item\New</Filter>
+    </ClCompile>
+    <ClCompile Include="InventorySlot.cpp">
+      <Filter>Source Files\GameSystem\Item\New</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemContainer.cpp">
+      <Filter>Source Files\GameSystem\Item\New</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemManager.cpp">
+      <Filter>Source Files\GameSystem\Item\New</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemSlot.cpp">
+      <Filter>Source Files\GameSystem\Item\New</Filter>
+    </ClCompile>
+    <ClCompile Include="MunpaWareSlot.cpp">
+      <Filter>Source Files\GameSystem\Item\New</Filter>
+    </ClCompile>
+    <ClCompile Include="PetInvenSlot.cpp">
+      <Filter>Source Files\GameSystem\Item\New</Filter>
+    </ClCompile>
+    <ClCompile Include="PetWearSlot.cpp">
+      <Filter>Source Files\GameSystem\Item\New</Filter>
+    </ClCompile>
+    <ClCompile Include="PyogukSlot.cpp">
+      <Filter>Source Files\GameSystem\Item\New</Filter>
+    </ClCompile>
+    <ClCompile Include="ShopInvenSlot.cpp">
+      <Filter>Source Files\GameSystem\Item\New</Filter>
+    </ClCompile>
+    <ClCompile Include="ShopItemManager.cpp">
+      <Filter>Source Files\GameSystem\Item\New</Filter>
+    </ClCompile>
+    <ClCompile Include="ShopItemSlot.cpp">
+      <Filter>Source Files\GameSystem\Item\New</Filter>
+    </ClCompile>
+    <ClCompile Include="WearSlot.cpp">
+      <Filter>Source Files\GameSystem\Item\New</Filter>
+    </ClCompile>
+    <ClCompile Include="Purse.cpp">
+      <Filter>Source Files\GameSystem\Item\Money</Filter>
+    </ClCompile>
+    <ClCompile Include="Quest.cpp">
+      <Filter>Source Files\GameSystem\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="QuestGroup.cpp">
+      <Filter>Source Files\GameSystem\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="QuestManager.cpp">
+      <Filter>Source Files\GameSystem\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="QuestMapMgr.cpp">
+      <Filter>Source Files\GameSystem\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="QuestRegenMgr.cpp">
+      <Filter>Source Files\GameSystem\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="QuestUpdater.cpp">
+      <Filter>Source Files\GameSystem\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="CQuestBase.cpp">
+      <Filter>Source Files\GameSystem\Quest\NewbieGuide</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Quest\QuestEvent.cpp">
+      <Filter>Source Files\GameSystem\Quest\QuestCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Quest\QuestLimit.cpp">
+      <Filter>Source Files\GameSystem\Quest\QuestCommon\QuestLimit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Quest\QuestLimitKind.cpp">
+      <Filter>Source Files\GameSystem\Quest\QuestCommon\QuestLimit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Quest\QuestLimitKind_Level.cpp">
+      <Filter>Source Files\GameSystem\Quest\QuestCommon\QuestLimit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Quest\QuestLimitKind_Quest.cpp">
+      <Filter>Source Files\GameSystem\Quest\QuestCommon\QuestLimit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Quest\QuestScriptLoader.cpp">
+      <Filter>Source Files\GameSystem\Quest\QuestCommon\QuestScript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Quest\QuestString.cpp">
+      <Filter>Source Files\GameSystem\Quest\QuestCommon\QuestScript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Quest\QuestInfo.cpp">
+      <Filter>Source Files\GameSystem\Quest\QuestCommon\QuestInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Quest\SubQuestInfo.cpp">
+      <Filter>Source Files\GameSystem\Quest\QuestCommon\QuestInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Quest\QuestCondition.cpp">
+      <Filter>Source Files\GameSystem\Quest\QuestCommon\QuestTrigger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Quest\QuestExecute.cpp">
+      <Filter>Source Files\GameSystem\Quest\QuestCommon\QuestTrigger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Quest\QuestExecute_Count.cpp">
+      <Filter>Source Files\GameSystem\Quest\QuestCommon\QuestTrigger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Quest\QuestExecute_Item.cpp">
+      <Filter>Source Files\GameSystem\Quest\QuestCommon\QuestTrigger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Quest\QuestExecute_Quest.cpp">
+      <Filter>Source Files\GameSystem\Quest\QuestCommon\QuestTrigger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Quest\QuestExecute_RandomItem.cpp">
+      <Filter>Source Files\GameSystem\Quest\QuestCommon\QuestTrigger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Quest\QuestExecute_Time.cpp">
+      <Filter>Source Files\GameSystem\Quest\QuestCommon\QuestTrigger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Quest\QuestTrigger.cpp">
+      <Filter>Source Files\GameSystem\Quest\QuestCommon\QuestTrigger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Quest\QuestNpc.cpp">
+      <Filter>Source Files\GameSystem\Quest\QuestCommon\QuestNpcScript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Quest\QuestNpcData.cpp">
+      <Filter>Source Files\GameSystem\Quest\QuestCommon\QuestNpcScript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Quest\QuestNpcScript.cpp">
+      <Filter>Source Files\GameSystem\Quest\QuestCommon\QuestNpcScript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Quest\QuestNpcScriptData.cpp">
+      <Filter>Source Files\GameSystem\Quest\QuestCommon\QuestNpcScript</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneralGridTable.cpp">
+      <Filter>Source Files\GameSystem\GridSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.cpp">
+      <Filter>Source Files\GameSystem\GridSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="GridSystem.cpp">
+      <Filter>Source Files\GameSystem\GridSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="GridTable.cpp">
+      <Filter>Source Files\GameSystem\GridSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="GridUnit.cpp">
+      <Filter>Source Files\GameSystem\GridSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="MurimGridTable.cpp">
+      <Filter>Source Files\GameSystem\GridSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="MugongManager.cpp">
+      <Filter>Source Files\GameSystem\Mugong</Filter>
+    </ClCompile>
+    <ClCompile Include="Economy.cpp">
+      <Filter>Source Files\GameSystem\Economy</Filter>
+    </ClCompile>
+    <ClCompile Include="MHTimeManager.cpp">
+      <Filter>Source Files\GameSystem\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="AuctionContents.cpp">
+      <Filter>Source Files\GameSystem\Auction</Filter>
+    </ClCompile>
+    <ClCompile Include="StatsCalcManager.cpp">
+      <Filter>Source Files\GameSystem\Stats</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterCalcManager.cpp">
+      <Filter>Source Files\GameSystem\Char</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterManager.cpp">
+      <Filter>Source Files\GameSystem\Char</Filter>
+    </ClCompile>
+    <ClCompile Include="Party.cpp">
+      <Filter>Source Files\GameSystem\Party</Filter>
+    </ClCompile>
+    <ClCompile Include="PartyManager.cpp">
+      <Filter>Source Files\GameSystem\Party</Filter>
+    </ClCompile>
+    <ClCompile Include="Distribute_Damage.cpp">
+      <Filter>Source Files\GameSystem\Party\DistributeWay</Filter>
+    </ClCompile>
+    <ClCompile Include="Distribute_Random.cpp">
+      <Filter>Source Files\GameSystem\Party\DistributeWay</Filter>
+    </ClCompile>
+    <ClCompile Include="DistributeWay.cpp">
+      <Filter>Source Files\GameSystem\Party\DistributeWay</Filter>
+    </ClCompile>
+    <ClCompile Include="UngijosikManager.cpp">
+      <Filter>Source Files\GameSystem\Ungijosik</Filter>
+    </ClCompile>
+    <ClCompile Include="TacticManager.cpp">
+      <Filter>Source Files\GameSystem\Tactic</Filter>
+    </ClCompile>
+    <ClCompile Include="TacticObject.cpp">
+      <Filter>Source Files\GameSystem\Tactic</Filter>
+    </ClCompile>
+    <ClCompile Include="TacticStartInfo.cpp">
+      <Filter>Source Files\GameSystem\Tactic</Filter>
+    </ClCompile>
+    <ClCompile Include="TaticAbilityInfo.cpp">
+      <Filter>Source Files\GameSystem\Tactic</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectStateManager.cpp">
+      <Filter>Source Files\GameSystem\State</Filter>
+    </ClCompile>
+    <ClCompile Include="ExchangeManager.cpp">
+      <Filter>Source Files\GameSystem\Exchange</Filter>
+    </ClCompile>
+    <ClCompile Include="ExchangeRoom.cpp">
+      <Filter>Source Files\GameSystem\Exchange</Filter>
+    </ClCompile>
+    <ClCompile Include="StreetStall.cpp">
+      <Filter>Source Files\GameSystem\StreeStall</Filter>
+    </ClCompile>
+    <ClCompile Include="StreetStallManager.cpp">
+      <Filter>Source Files\GameSystem\StreeStall</Filter>
+    </ClCompile>
+    <ClCompile Include="PyoGukManager.cpp">
+      <Filter>Source Files\GameSystem\PyoGuk</Filter>
+    </ClCompile>
+    <ClCompile Include="KyungGongInfo.cpp">
+      <Filter>Source Files\GameSystem\KyungGong</Filter>
+    </ClCompile>
+    <ClCompile Include="KyungGongManager.cpp">
+      <Filter>Source Files\GameSystem\KyungGong</Filter>
+    </ClCompile>
+    <ClCompile Include="FriendManager.cpp">
+      <Filter>Source Files\GameSystem\Friend</Filter>
+    </ClCompile>
+    <ClCompile Include="FameManager.cpp">
+      <Filter>Source Files\GameSystem\Fame</Filter>
+    </ClCompile>
+    <ClCompile Include="QuickManager.cpp">
+      <Filter>Source Files\GameSystem\Quick</Filter>
+    </ClCompile>
+    <ClCompile Include="LootingManager.cpp">
+      <Filter>Source Files\GameSystem\PKManager</Filter>
+    </ClCompile>
+    <ClCompile Include="LootingRoom.cpp">
+      <Filter>Source Files\GameSystem\PKManager</Filter>
+    </ClCompile>
+    <ClCompile Include="PKManager.cpp">
+      <Filter>Source Files\GameSystem\PKManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Channel.cpp">
+      <Filter>Source Files\GameSystem\Channel</Filter>
+    </ClCompile>
+    <ClCompile Include="ChannelSystem.cpp">
+      <Filter>Source Files\GameSystem\Channel</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckRoutine.cpp">
+      <Filter>Source Files\GameSystem\check</Filter>
+    </ClCompile>
+    <ClCompile Include="PeaceWarModManager.cpp">
+      <Filter>Source Files\GameSystem\PeaceWarMode</Filter>
+    </ClCompile>
+    <ClCompile Include="WantedInfo.cpp">
+      <Filter>Source Files\GameSystem\Wanted</Filter>
+    </ClCompile>
+    <ClCompile Include="WantedManager.cpp">
+      <Filter>Source Files\GameSystem\Wanted</Filter>
+    </ClCompile>
+    <ClCompile Include="JournalManager.cpp">
+      <Filter>Source Files\GameSystem\Journal</Filter>
+    </ClCompile>
+    <ClCompile Include="ReinforceManager.cpp">
+      <Filter>Source Files\GameSystem\ItemReinforce</Filter>
+    </ClCompile>
+    <ClCompile Include="DissolutionManager.cpp">
+      <Filter>Source Files\GameSystem\ItemDissolution</Filter>
+    </ClCompile>
+    <ClCompile Include="SocietyActManager.cpp">
+      <Filter>Source Files\GameSystem\SocietyActManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Guild.cpp">
+      <Filter>Source Files\GameSystem\Guild</Filter>
+    </ClCompile>
+    <ClCompile Include="GuildManager.cpp">
+      <Filter>Source Files\GameSystem\Guild</Filter>
+    </ClCompile>
+    <ClCompile Include="GuildMark.cpp">
+      <Filter>Source Files\GameSystem\Guild</Filter>
+    </ClCompile>
+    <ClCompile Include="GuildUnion.cpp">
+      <Filter>Source Files\GameSystem\Guild\GuildUnion</Filter>
+    </ClCompile>
+    <ClCompile Include="GuildUnionManager.cpp">
+      <Filter>Source Files\GameSystem\Guild\GuildUnion</Filter>
+    </ClCompile>
+    <ClCompile Include="GuildWarehouse.cpp">
+      <Filter>Source Files\GameSystem\Guild\GuildWarehouse</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeItemMgr.cpp">
+      <Filter>Source Files\GameSystem\ChangeItem</Filter>
+    </ClCompile>
+    <ClCompile Include="EventMapMgr.cpp">
+      <Filter>Source Files\GameSystem\EventMap</Filter>
+    </ClCompile>
+    <ClCompile Include="GuildFieldWarMgr.cpp">
+      <Filter>Source Files\GameSystem\GuildFieldWar</Filter>
+    </ClCompile>
+    <ClCompile Include="PartyWarMgr.cpp">
+      <Filter>Source Files\GameSystem\PartyWar</Filter>
+    </ClCompile>
+    <ClCompile Include="GuildTournamentMgr.cpp">
+      <Filter>Source Files\GameSystem\GuildTournamentMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="StatisticsManager.cpp">
+      <Filter>Source Files\GameSystem\Statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="SiegeWarMgr.cpp">
+      <Filter>Source Files\GameSystem\SiegeWarMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="SiegeWarProfitMgr.cpp">
+      <Filter>Source Files\GameSystem\SiegeWarMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="cJackpotManager.cpp">
+      <Filter>Source Files\GameSystem\Jackpot</Filter>
+    </ClCompile>
+    <ClCompile Include="cMonsterSpeechManager.cpp">
+      <Filter>Source Files\GameSystem\MonSpeech</Filter>
+    </ClCompile>
+    <ClCompile Include="WeatherManager.cpp">
+      <Filter>Source Files\GameSystem\WeatherManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SurvivalModeManager.cpp">
+      <Filter>Source Files\GameSystem\SurvivalMode</Filter>
+    </ClCompile>
+    <ClCompile Include="RarenessManager.cpp">
+      <Filter>Source Files\GameSystem\ItemRareness</Filter>
+    </ClCompile>
+    <ClCompile Include="TitanItemManager.cpp">
+      <Filter>Source Files\GameSystem\Titan</Filter>
+    </ClCompile>
+    <ClCompile Include="TitanManager.cpp">
+      <Filter>Source Files\GameSystem\Titan</Filter>
+    </ClCompile>
+    <ClCompile Include="TitanShopItemSlot.cpp">
+      <Filter>Source Files\GameSystem\Titan</Filter>
+    </ClCompile>
+    <ClCompile Include="TitanWearSlot.cpp">
+      <Filter>Source Files\GameSystem\Titan</Filter>
+    </ClCompile>
+    <ClCompile Include="BobusangManager.cpp">
+      <Filter>Source Files\GameSystem\BobusangManager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEventManager.cpp">
+      <Filter>Source Files\GameSystem\ItemLimitManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemLimitManager.cpp">
+      <Filter>Source Files\GameSystem\ItemLimitManager</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoNoteManager.cpp">
+      <Filter>Source Files\GameSystem\AutoNote</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoNoteRoom.cpp">
+      <Filter>Source Files\GameSystem\AutoNote</Filter>
+    </ClCompile>
+    <ClCompile Include="FortWarManager.cpp">
+      <Filter>Source Files\GameSystem\FortWarManager</Filter>
+    </ClCompile>
+    <ClCompile Include="RechargeRecordManager.cpp">
+      <Filter>Source Files\NewSystem\RechargeRecord</Filter>
+    </ClCompile>
+    <ClCompile Include="Date.cpp">
+      <Filter>Source Files\NewSystem\SingedManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SingedManager.cpp">
+      <Filter>Source Files\NewSystem\SingedManager</Filter>
+    </ClCompile>
+    <ClCompile Include="sRestManager.cpp">
+      <Filter>Source Files\NewSystem\RestManager</Filter>
+    </ClCompile>
+    <ClCompile Include="KillTopManager.cpp">
+      <Filter>Source Files\NewSystem\KillTopListManager</Filter>
+    </ClCompile>
+    <ClCompile Include="LimitItemDropManager.cpp">
+      <Filter>Source Files\NewSystem\LimitItemDropManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ShopItemLimitManager.cpp">
+      <Filter>Source Files\NewSystem\ShopItemLimitManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]ServerModule\BootManager.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]ServerModule\CommonDBMsgParser.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]ServerModule\Console.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]ServerModule\DataBase.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]ServerModule\MiniDumper.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]ServerModule\Network.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]ServerModule\ServerListManager.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Header\CommonCalcFunc.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Header\CommonGameFunc.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Header\GameResourceManager.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Header\vector.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Header\TargetList\TargetData.cpp">
+      <Filter>Common\TargetList No. 1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Header\TargetList\TargetList.cpp">
+      <Filter>Common\TargetList No. 1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Header\TargetList\TargetListIterator.cpp">
+      <Filter>Common\TargetList No. 1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Skill\DelayGroup.cpp">
+      <Filter>Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Skill\skillinfo.cpp">
+      <Filter>Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Skill\SkillManager_client.cpp">
+      <Filter>Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Skill\SkillManager_server.cpp">
+      <Filter>Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Skill\ValueInSung.cpp">
+      <Filter>Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Skill\SkillArea.cpp">
+      <Filter>Skill\Area</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Skill\SkillAreaData.cpp">
+      <Filter>Skill\Area</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Skill\SkillAreaManager.cpp">
+      <Filter>Skill\Area</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Skill\SkillObject_client.cpp">
+      <Filter>Skill\SkillObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Skill\SkillObject_Mine.cpp">
+      <Filter>Skill\SkillObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Skill\skillobject_server.cpp">
+      <Filter>Skill\SkillObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Skill\SkillObjectFactory.cpp">
+      <Filter>Skill\SkillObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Skill\SkillObjectTargetList.cpp">
+      <Filter>Skill\SkillObject\TargetList</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Skill\SkillObjectTargetList_Area.cpp">
+      <Filter>Skill\SkillObject\TargetList</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Skill\SkillObjectTargetList_Circle.cpp">
+      <Filter>Skill\SkillObject\TargetList</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Skill\SkillObjectTargetList_Fixed.cpp">
+      <Filter>Skill\SkillObject\TargetList</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Skill\SkillObjectTargetList_One.cpp">
+      <Filter>Skill\SkillObject\TargetList</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Skill\SkillObjectSingleUnit.cpp">
+      <Filter>Skill\SkillObject\SingleUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Skill\SkillObjectSingleUnit_Attack.cpp">
+      <Filter>Skill\SkillObject\SingleUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Skill\SkillObjectSingleUnit_Heal.cpp">
+      <Filter>Skill\SkillObject\SingleUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Skill\SkillObjectSingleUnit_Recharge.cpp">
+      <Filter>Skill\SkillObject\SingleUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Skill\SkillObjectTerminator.cpp">
+      <Filter>Skill\SkillObject\Terminator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Skill\SkillObjectTerminator_Time.cpp">
+      <Filter>Skill\SkillObject\Terminator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Skill\SkillObjectFirstUnit.cpp">
+      <Filter>Skill\SkillObject\FirstUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Skill\SkillObjectFirstUnit_Attack.cpp">
+      <Filter>Skill\SkillObject\FirstUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Skill\SkillObjectFirstUnit_Job.cpp">
+      <Filter>Skill\SkillObject\FirstUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Skill\SkillObjectFirstUnit_Recover.cpp">
+      <Filter>Skill\SkillObject\FirstUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Skill\SkillObjectFirstUnit_SingleSpecialState.cpp">
+      <Filter>Skill\SkillObject\FirstUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Skill\SkillObjectStateUnit.cpp">
+      <Filter>Skill\SkillObject\StateUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Skill\SkillObjectStateUnit_AmplifiedPower.cpp">
+      <Filter>Skill\SkillObject\StateUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Skill\SkillObjectStateUnit_DummyState.cpp">
+      <Filter>Skill\SkillObject\StateUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Skill\SkillObjectStateUnit_StatusAttach.cpp">
+      <Filter>Skill\SkillObject\StateUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Skill\SkillObjectStateUnit_TieUp.cpp">
+      <Filter>Skill\SkillObject\StateUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Skill\SkillObjectAttachUnit.cpp">
+      <Filter>Skill\SkillObject\AttachUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Skill\SkillObjectAttachUnit_Attack.cpp">
+      <Filter>Skill\SkillObject\AttachUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Skill\SkillObjectAttachUnit_CounterAttack.cpp">
+      <Filter>Skill\SkillObject\AttachUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Skill\SkillObjectAttachUnit_Defence.cpp">
+      <Filter>Skill\SkillObject\AttachUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Skill\SkillObjectAttachUnit_Dodge1.cpp">
+      <Filter>Skill\SkillObject\AttachUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Skill\SkillObjectAttachUnit_Immune.cpp">
+      <Filter>Skill\SkillObject\AttachUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Skill\SkillObjectAttachUnit_MaxLife.cpp">
+      <Filter>Skill\SkillObject\AttachUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Skill\SkillObjectAttachUnit_MoveSpeed.cpp">
+      <Filter>Skill\SkillObject\AttachUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Skill\SkillObjectAttachUnit_SkipEffect.cpp">
+      <Filter>Skill\SkillObject\AttachUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Skill\SkillObjectAttachUnit_Vampiric.cpp">
+      <Filter>Skill\SkillObject\AttachUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Skill\Status.cpp">
+      <Filter>Skill\Status</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackCalc.cpp">
+      <Filter>Skill\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackManager.cpp">
+      <Filter>Skill\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Skill\AmplifiedPower.cpp">
+      <Filter>Skill\SpecialState</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Skill\DetectState.cpp">
+      <Filter>Skill\SpecialState</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Skill\SpecialState.cpp">
+      <Filter>Skill\SpecialState</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Skill\StunState.cpp">
+      <Filter>Skill\SpecialState</Filter>
+    </ClCompile>
+    <ClCompile Include="Distributer.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="MapObject.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Npc.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectEvent.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Pet.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="PetManager.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="PetSpeechManager.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Titan.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="BossMonster.cpp">
+      <Filter>Object\BossMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="BossMonsterInfo.cpp">
+      <Filter>Object\BossMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="BossMonsterManager.cpp">
+      <Filter>Object\BossMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="BossRewardsManager.cpp">
+      <Filter>Object\BossMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="BossState.cpp">
+      <Filter>Object\BossMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="SummonGroup.cpp">
+      <Filter>Object\BossMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="SummonInfo.cpp">
+      <Filter>Object\BossMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="SummonMonster.cpp">
+      <Filter>Object\BossMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldBossMonster.cpp">
+      <Filter>Object\FieldBossMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldBossMonsterManager.cpp">
+      <Filter>Object\FieldBossMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldSubMonster.cpp">
+      <Filter>Object\FieldBossMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]BattleSystem\BattleSystem_Client.cpp">
+      <Filter>BattleSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]BattleSystem\BattleSystem_Server.cpp">
+      <Filter>BattleSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="SiegeWarGiveItem.cpp">
+      <Filter>BattleSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]BattleSystem\MunpaField\Battle_MunpaField.cpp">
+      <Filter>BattleSystem\MunpaField</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]BattleSystem\MunpaField\BattleFactory_MunpaField.cpp">
+      <Filter>BattleSystem\MunpaField</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]BattleSystem\MunpaField\BattleTeam_MunpaField.cpp">
+      <Filter>BattleSystem\MunpaField</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]BattleSystem\Battle.cpp">
+      <Filter>BattleSystem\BaseBattle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]BattleSystem\BattleFactory.cpp">
+      <Filter>BattleSystem\BaseBattle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]BattleSystem\BattleObject.cpp">
+      <Filter>BattleSystem\BaseBattle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]BattleSystem\BattleRect.cpp">
+      <Filter>BattleSystem\BaseBattle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]BattleSystem\BattleTeam.cpp">
+      <Filter>BattleSystem\BaseBattle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]BattleSystem\VimuStreet\Battle_VimuStreet.cpp">
+      <Filter>BattleSystem\VimuStreet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]BattleSystem\VimuStreet\BattleFactory_VimuStreet.cpp">
+      <Filter>BattleSystem\VimuStreet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]BattleSystem\VimuStreet\BattleTeam_VimuStreet.cpp">
+      <Filter>BattleSystem\VimuStreet</Filter>
+    </ClCompile>
+    <ClCompile Include="VimuManager.cpp">
+      <Filter>BattleSystem\VimuStreet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]BattleSystem\MurimField\battle_murimfield.cpp">
+      <Filter>BattleSystem\MurimField</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]BattleSystem\MurimField\battlefactory_murimfield.cpp">
+      <Filter>BattleSystem\MurimField</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]BattleSystem\MurimField\battleteam_murimfield.cpp">
+      <Filter>BattleSystem\MurimField</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]BattleSystem\GTournament\Battle_GTournament.cpp">
+      <Filter>BattleSystem\GTournament</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]BattleSystem\GTournament\BattleFactory_GTournament.cpp">
+      <Filter>BattleSystem\GTournament</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]BattleSystem\GTournament\BattleTeam_GTournament.cpp">
+      <Filter>BattleSystem\GTournament</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleFactory_Default.cpp">
+      <Filter>BattleSystem\Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]BattleSystem\SiegeWar\Battle_SiegeWar.cpp">
+      <Filter>BattleSystem\SiegeWar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]BattleSystem\SiegeWar\BattleFactory_SiegeWar.cpp">
+      <Filter>BattleSystem\SiegeWar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]BattleSystem\SiegeWar\BattleTeam_SiegeWar.cpp">
+      <Filter>BattleSystem\SiegeWar</Filter>
+    </ClCompile>
+    <ClCompile Include="AIManager.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AIParam.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="HelpRequestManager.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="MsgRouter.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="PatternObject.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="RecallManager.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMachinen.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="StateParam.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AIGroupManager.cpp">
+      <Filter>AI\New No. 1</Filter>
+    </ClCompile>
+    <ClCompile Include="AIGroupPrototype.cpp">
+      <Filter>AI\New No. 1</Filter>
+    </ClCompile>
+    <ClCompile Include="AISystem.cpp">
+      <Filter>AI\New No. 1</Filter>
+    </ClCompile>
+    <ClCompile Include="AIUniqueGroup.cpp">
+      <Filter>AI\New No. 1</Filter>
+    </ClCompile>
+    <ClCompile Include="GroupRegenInfo.cpp">
+      <Filter>AI\New No. 1</Filter>
+    </ClCompile>
+    <ClCompile Include="RegenConditionInfo.cpp">
+      <Filter>AI\New No. 1</Filter>
+    </ClCompile>
+    <ClCompile Include="RegenManager.cpp">
+      <Filter>AI\New No. 1</Filter>
+    </ClCompile>
+    <ClCompile Include="RegenPrototype.cpp">
+      <Filter>AI\New No. 1</Filter>
+    </ClCompile>
+    <ClCompile Include="Condition\ACTION.cpp">
+      <Filter>EngineLib\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="Condition\ACTION_exe.cpp">
+      <Filter>EngineLib\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="Condition\ActionManager.cpp">
+      <Filter>EngineLib\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="Condition\ConditionFactory.cpp">
+      <Filter>EngineLib\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="Condition\ConditionManager.cpp">
+      <Filter>EngineLib\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="Condition\ConditionNode.cpp">
+      <Filter>EngineLib\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="Condition\ConditionObject.cpp">
+      <Filter>EngineLib\Condition\ConditionObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Condition\ConditionObjectManager.cpp">
+      <Filter>EngineLib\Condition\ConditionObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Condition\DATA.cpp">
+      <Filter>EngineLib\Condition\ConditionObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Condition\OPDATA.cpp">
+      <Filter>EngineLib\Condition\ConditionObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Condition\RESOURCE.cpp">
+      <Filter>EngineLib\Condition\ConditionObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Condition\SITUATION.cpp">
+      <Filter>EngineLib\Condition\ConditionObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Condition\SITUATION_exe.cpp">
+      <Filter>EngineLib\Condition\ConditionObject</Filter>
+    </ClCompile>
+    <ClCompile Include="PathManager.cpp">
+      <Filter>Path</Filter>
+    </ClCompile>
+    <ClCompile Include="STRPath.cpp">
+      <Filter>Path</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Ability\Ability.cpp">
+      <Filter>Ability</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Ability\AbilityCommonHeader.cpp">
+      <Filter>Ability</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Ability\AbilityGroup.cpp">
+      <Filter>Ability</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Ability\AbilityInfo.cpp">
+      <Filter>Ability</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Ability\AbilityManager.cpp">
+      <Filter>Ability</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Ability\AbilityUpdater.cpp">
+      <Filter>Ability</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Ability\AbilityUpdater_ApplyData.cpp">
+      <Filter>Ability</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Ability\AbilityUpdater_CheckLevelUp.cpp">
+      <Filter>Ability</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Ability\AbilityUpdater_Database.cpp">
+      <Filter>Ability</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Ability\AbilityUse.cpp">
+      <Filter>Ability</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Ability\AbilityUse_Job.cpp">
+      <Filter>Ability</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Ability\AbilityUse_KyungGong.cpp">
+      <Filter>Ability</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Ability\AbilityUse_Pet.cpp">
+      <Filter>Ability</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Ability\AbilityUse_Society.cpp">
+      <Filter>Ability</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Suryun\SuryunDefine.cpp">
+      <Filter>Suryun</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Suryun\SuryunManager_client.cpp">
+      <Filter>Suryun</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]Suryun\SuryunManager_server.cpp">
+      <Filter>Suryun</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]BattleSystem\Suryun\Battle_Suryun.cpp">
+      <Filter>Suryun\Battle Suryun</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]BattleSystem\Suryun\BattleFactory_Suryun.cpp">
+      <Filter>Suryun\Battle Suryun</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[CC]BattleSystem\Suryun\BattleTeam_Suryun.cpp">
+      <Filter>Suryun\Battle Suryun</Filter>
+    </ClCompile>
+    <ClCompile Include="SuryunRegen.cpp">
+      <Filter>Suryun\SuryunRegen</Filter>
+    </ClCompile>
+    <ClCompile Include="SuryunRegenGroup.cpp">
+      <Filter>Suryun\SuryunRegen</Filter>
+    </ClCompile>
+    <ClCompile Include="SuryunRegenGroupInfo.cpp">
+      <Filter>Suryun\SuryunRegen</Filter>
+    </ClCompile>
+    <ClCompile Include="SuryunRegenInfo.cpp">
+      <Filter>Suryun\SuryunRegen</Filter>
+    </ClCompile>
+    <ClCompile Include="SuryunRegenManager.cpp">
+      <Filter>Suryun\SuryunRegen</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexManager.cpp" />
+    <ClCompile Include="..\UnionWarManager.cpp">
+      <Filter>Source Files\GameSystem\FortWarManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CommonNetworkMsgParser.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MapChange.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MapDBMsgParser.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MapNetworkMsgParser.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryChecker.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MHError.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MHFile.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionManager.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerSystem.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerTable.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UserTable.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectFactory.h">
+      <Filter>Source Files\ObjectFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="DataBlock.h">
+      <Filter>Source Files\PackedData</Filter>
+    </ClInclude>
+    <ClInclude Include="DataBlockManager.h">
+      <Filter>Source Files\PackedData</Filter>
+    </ClInclude>
+    <ClInclude Include="PackedData.h">
+      <Filter>Source Files\PackedData</Filter>
+    </ClInclude>
+    <ClInclude Include="FixedTile.h">
+      <Filter>Source Files\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="FixedTileInfo.h">
+      <Filter>Source Files\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MHMap.h">
+      <Filter>Source Files\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Source Files\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="TileGroup.h">
+      <Filter>Source Files\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="TileManager.h">
+      <Filter>Source Files\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="PatternNPC.h">
+      <Filter>Source Files\GameSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="RegenNPC.h">
+      <Filter>Source Files\GameSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="StateNPC.h">
+      <Filter>Source Files\GameSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="CharMove.h">
+      <Filter>Source Files\GameSystem\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemDrop.h">
+      <Filter>Source Files\GameSystem\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="MapItemDrop.h">
+      <Filter>Source Files\GameSystem\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="FortWarWareSlot.h">
+      <Filter>Source Files\GameSystem\Item\New</Filter>
+    </ClInclude>
+    <ClInclude Include="InventorySlot.h">
+      <Filter>Source Files\GameSystem\Item\New</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemContainer.h">
+      <Filter>Source Files\GameSystem\Item\New</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemManager.h">
+      <Filter>Source Files\GameSystem\Item\New</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemSlot.h">
+      <Filter>Source Files\GameSystem\Item\New</Filter>
+    </ClInclude>
+    <ClInclude Include="MunpaWareSlot.h">
+      <Filter>Source Files\GameSystem\Item\New</Filter>
+    </ClInclude>
+    <ClInclude Include="PetInvenSlot.h">
+      <Filter>Source Files\GameSystem\Item\New</Filter>
+    </ClInclude>
+    <ClInclude Include="PetWearSlot.h">
+      <Filter>Source Files\GameSystem\Item\New</Filter>
+    </ClInclude>
+    <ClInclude Include="PyogukSlot.h">
+      <Filter>Source Files\GameSystem\Item\New</Filter>
+    </ClInclude>
+    <ClInclude Include="ShopInvenSlot.h">
+      <Filter>Source Files\GameSystem\Item\New</Filter>
+    </ClInclude>
+    <ClInclude Include="ShopItemManager.h">
+      <Filter>Source Files\GameSystem\Item\New</Filter>
+    </ClInclude>
+    <ClInclude Include="ShopItemSlot.h">
+      <Filter>Source Files\GameSystem\Item\New</Filter>
+    </ClInclude>
+    <ClInclude Include="WearSlot.h">
+      <Filter>Source Files\GameSystem\Item\New</Filter>
+    </ClInclude>
+    <ClInclude Include="Purse.h">
+      <Filter>Source Files\GameSystem\Item\Money</Filter>
+    </ClInclude>
+    <ClInclude Include="Quest.h">
+      <Filter>Source Files\GameSystem\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="QuestGroup.h">
+      <Filter>Source Files\GameSystem\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="QuestManager.h">
+      <Filter>Source Files\GameSystem\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="QuestMapMgr.h">
+      <Filter>Source Files\GameSystem\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="QuestRegenMgr.h">
+      <Filter>Source Files\GameSystem\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="QuestUpdater.h">
+      <Filter>Source Files\GameSystem\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="CQuestBase.h">
+      <Filter>Source Files\GameSystem\Quest\NewbieGuide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Quest\QuestDefines.h">
+      <Filter>Source Files\GameSystem\Quest\QuestCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Quest\QuestEvent.h">
+      <Filter>Source Files\GameSystem\Quest\QuestCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Quest\QuestLimit.h">
+      <Filter>Source Files\GameSystem\Quest\QuestCommon\QuestLimit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Quest\QuestLimitKind.h">
+      <Filter>Source Files\GameSystem\Quest\QuestCommon\QuestLimit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Quest\QuestLimitKind_Level.h">
+      <Filter>Source Files\GameSystem\Quest\QuestCommon\QuestLimit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Quest\QuestLimitKind_Quest.h">
+      <Filter>Source Files\GameSystem\Quest\QuestCommon\QuestLimit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Quest\QuestScriptLoader.h">
+      <Filter>Source Files\GameSystem\Quest\QuestCommon\QuestScript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Quest\QuestString.h">
+      <Filter>Source Files\GameSystem\Quest\QuestCommon\QuestScript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Quest\QuestInfo.h">
+      <Filter>Source Files\GameSystem\Quest\QuestCommon\QuestInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Quest\SubQuestInfo.h">
+      <Filter>Source Files\GameSystem\Quest\QuestCommon\QuestInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Quest\QuestCondition.h">
+      <Filter>Source Files\GameSystem\Quest\QuestCommon\QuestTrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Quest\QuestExecute.h">
+      <Filter>Source Files\GameSystem\Quest\QuestCommon\QuestTrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Quest\QuestExecute_Count.h">
+      <Filter>Source Files\GameSystem\Quest\QuestCommon\QuestTrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Quest\QuestExecute_Item.h">
+      <Filter>Source Files\GameSystem\Quest\QuestCommon\QuestTrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Quest\QuestExecute_Quest.h">
+      <Filter>Source Files\GameSystem\Quest\QuestCommon\QuestTrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Quest\QuestExecute_RandomItem.h">
+      <Filter>Source Files\GameSystem\Quest\QuestCommon\QuestTrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Quest\QuestExecute_Time.h">
+      <Filter>Source Files\GameSystem\Quest\QuestCommon\QuestTrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Quest\QuestTrigger.h">
+      <Filter>Source Files\GameSystem\Quest\QuestCommon\QuestTrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Quest\QuestNpc.h">
+      <Filter>Source Files\GameSystem\Quest\QuestCommon\QuestNpcScript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Quest\QuestNpcData.h">
+      <Filter>Source Files\GameSystem\Quest\QuestCommon\QuestNpcScript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Quest\QuestNpcScript.h">
+      <Filter>Source Files\GameSystem\Quest\QuestCommon\QuestNpcScript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Quest\QuestNpcScriptData.h">
+      <Filter>Source Files\GameSystem\Quest\QuestCommon\QuestNpcScript</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneralGridTable.h">
+      <Filter>Source Files\GameSystem\GridSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>Source Files\GameSystem\GridSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="GridSystem.h">
+      <Filter>Source Files\GameSystem\GridSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="GridTable.h">
+      <Filter>Source Files\GameSystem\GridSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="GridUnit.h">
+      <Filter>Source Files\GameSystem\GridSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="MurimGridTable.h">
+      <Filter>Source Files\GameSystem\GridSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="MugongManager.h">
+      <Filter>Source Files\GameSystem\Mugong</Filter>
+    </ClInclude>
+    <ClInclude Include="Economy.h">
+      <Filter>Source Files\GameSystem\Economy</Filter>
+    </ClInclude>
+    <ClInclude Include="MHTimeManager.h">
+      <Filter>Source Files\GameSystem\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="AuctionContents.h">
+      <Filter>Source Files\GameSystem\Auction</Filter>
+    </ClInclude>
+    <ClInclude Include="StatsCalcManager.h">
+      <Filter>Source Files\GameSystem\Stats</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterCalcManager.h">
+      <Filter>Source Files\GameSystem\Char</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterManager.h">
+      <Filter>Source Files\GameSystem\Char</Filter>
+    </ClInclude>
+    <ClInclude Include="Party.h">
+      <Filter>Source Files\GameSystem\Party</Filter>
+    </ClInclude>
+    <ClInclude Include="PartyManager.h">
+      <Filter>Source Files\GameSystem\Party</Filter>
+    </ClInclude>
+    <ClInclude Include="Distribute_Damage.h">
+      <Filter>Source Files\GameSystem\Party\DistributeWay</Filter>
+    </ClInclude>
+    <ClInclude Include="Distribute_Random.h">
+      <Filter>Source Files\GameSystem\Party\DistributeWay</Filter>
+    </ClInclude>
+    <ClInclude Include="DistributeWay.h">
+      <Filter>Source Files\GameSystem\Party\DistributeWay</Filter>
+    </ClInclude>
+    <ClInclude Include="UngijosikManager.h">
+      <Filter>Source Files\GameSystem\Ungijosik</Filter>
+    </ClInclude>
+    <ClInclude Include="TacticManager.h">
+      <Filter>Source Files\GameSystem\Tactic</Filter>
+    </ClInclude>
+    <ClInclude Include="TacticObject.h">
+      <Filter>Source Files\GameSystem\Tactic</Filter>
+    </ClInclude>
+    <ClInclude Include="TacticStartInfo.h">
+      <Filter>Source Files\GameSystem\Tactic</Filter>
+    </ClInclude>
+    <ClInclude Include="TaticAbilityInfo.h">
+      <Filter>Source Files\GameSystem\Tactic</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectStateManager.h">
+      <Filter>Source Files\GameSystem\State</Filter>
+    </ClInclude>
+    <ClInclude Include="ExchangeManager.h">
+      <Filter>Source Files\GameSystem\Exchange</Filter>
+    </ClInclude>
+    <ClInclude Include="ExchangeRoom.h">
+      <Filter>Source Files\GameSystem\Exchange</Filter>
+    </ClInclude>
+    <ClInclude Include="StreetStall.h">
+      <Filter>Source Files\GameSystem\StreeStall</Filter>
+    </ClInclude>
+    <ClInclude Include="StreetStallManager.h">
+      <Filter>Source Files\GameSystem\StreeStall</Filter>
+    </ClInclude>
+    <ClInclude Include="PyoGukManager.h">
+      <Filter>Source Files\GameSystem\PyoGuk</Filter>
+    </ClInclude>
+    <ClInclude Include="KyungGongInfo.h">
+      <Filter>Source Files\GameSystem\KyungGong</Filter>
+    </ClInclude>
+    <ClInclude Include="KyungGongManager.h">
+      <Filter>Source Files\GameSystem\KyungGong</Filter>
+    </ClInclude>
+    <ClInclude Include="FriendManager.h">
+      <Filter>Source Files\GameSystem\Friend</Filter>
+    </ClInclude>
+    <ClInclude Include="FameManager.h">
+      <Filter>Source Files\GameSystem\Fame</Filter>
+    </ClInclude>
+    <ClInclude Include="QuickManager.h">
+      <Filter>Source Files\GameSystem\Quick</Filter>
+    </ClInclude>
+    <ClInclude Include="LootingManager.h">
+      <Filter>Source Files\GameSystem\PKManager</Filter>
+    </ClInclude>
+    <ClInclude Include="LootingRoom.h">
+      <Filter>Source Files\GameSystem\PKManager</Filter>
+    </ClInclude>
+    <ClInclude Include="PKManager.h">
+      <Filter>Source Files\GameSystem\PKManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Channel.h">
+      <Filter>Source Files\GameSystem\Channel</Filter>
+    </ClInclude>
+    <ClInclude Include="ChannelSystem.h">
+      <Filter>Source Files\GameSystem\Channel</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckRoutine.h">
+      <Filter>Source Files\GameSystem\check</Filter>
+    </ClInclude>
+    <ClInclude Include="PeaceWarModManager.h">
+      <Filter>Source Files\GameSystem\PeaceWarMode</Filter>
+    </ClInclude>
+    <ClInclude Include="WantedInfo.h">
+      <Filter>Source Files\GameSystem\Wanted</Filter>
+    </ClInclude>
+    <ClInclude Include="WantedManager.h">
+      <Filter>Source Files\GameSystem\Wanted</Filter>
+    </ClInclude>
+    <ClInclude Include="JournalManager.h">
+      <Filter>Source Files\GameSystem\Journal</Filter>
+    </ClInclude>
+    <ClInclude Include="ReinforceManager.h">
+      <Filter>Source Files\GameSystem\ItemReinforce</Filter>
+    </ClInclude>
+    <ClInclude Include="DissolutionManager.h">
+      <Filter>Source Files\GameSystem\ItemDissolution</Filter>
+    </ClInclude>
+    <ClInclude Include="SocietyActManager.h">
+      <Filter>Source Files\GameSystem\SocietyActManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Guild.h">
+      <Filter>Source Files\GameSystem\Guild</Filter>
+    </ClInclude>
+    <ClInclude Include="GuildManager.h">
+      <Filter>Source Files\GameSystem\Guild</Filter>
+    </ClInclude>
+    <ClInclude Include="GuildMark.h">
+      <Filter>Source Files\GameSystem\Guild</Filter>
+    </ClInclude>
+    <ClInclude Include="GuildUnion.h">
+      <Filter>Source Files\GameSystem\Guild\GuildUnion</Filter>
+    </ClInclude>
+    <ClInclude Include="GuildUnionManager.h">
+      <Filter>Source Files\GameSystem\Guild\GuildUnion</Filter>
+    </ClInclude>
+    <ClInclude Include="GuildWarehouse.h">
+      <Filter>Source Files\GameSystem\Guild\GuildWarehouse</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeItemMgr.h">
+      <Filter>Source Files\GameSystem\ChangeItem</Filter>
+    </ClInclude>
+    <ClInclude Include="EventMapMgr.h">
+      <Filter>Source Files\GameSystem\EventMap</Filter>
+    </ClInclude>
+    <ClInclude Include="GuildFieldWarMgr.h">
+      <Filter>Source Files\GameSystem\GuildFieldWar</Filter>
+    </ClInclude>
+    <ClInclude Include="PartyWarMgr.h">
+      <Filter>Source Files\GameSystem\PartyWar</Filter>
+    </ClInclude>
+    <ClInclude Include="GuildTournamentMgr.h">
+      <Filter>Source Files\GameSystem\GuildTournamentMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="StatisticsManager.h">
+      <Filter>Source Files\GameSystem\Statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="SiegeWarMgr.h">
+      <Filter>Source Files\GameSystem\SiegeWarMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="SiegeWarProfitMgr.h">
+      <Filter>Source Files\GameSystem\SiegeWarMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="cJackpotManager.h">
+      <Filter>Source Files\GameSystem\Jackpot</Filter>
+    </ClInclude>
+    <ClInclude Include="cMonsterSpeechManager.h">
+      <Filter>Source Files\GameSystem\MonSpeech</Filter>
+    </ClInclude>
+    <ClInclude Include="WeatherManager.h">
+      <Filter>Source Files\GameSystem\WeatherManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SurvivalModeManager.h">
+      <Filter>Source Files\GameSystem\SurvivalMode</Filter>
+    </ClInclude>
+    <ClInclude Include="RarenessManager.h">
+      <Filter>Source Files\GameSystem\ItemRareness</Filter>
+    </ClInclude>
+    <ClInclude Include="TitanItemManager.h">
+      <Filter>Source Files\GameSystem\Titan</Filter>
+    </ClInclude>
+    <ClInclude Include="TitanManager.h">
+      <Filter>Source Files\GameSystem\Titan</Filter>
+    </ClInclude>
+    <ClInclude Include="TitanShopItemSlot.h">
+      <Filter>Source Files\GameSystem\Titan</Filter>
+    </ClInclude>
+    <ClInclude Include="TitanWearSlot.h">
+      <Filter>Source Files\GameSystem\Titan</Filter>
+    </ClInclude>
+    <ClInclude Include="BobusangManager.h">
+      <Filter>Source Files\GameSystem\BobusangManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEventManager.h">
+      <Filter>Source Files\GameSystem\ItemLimitManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemLimitManager.h">
+      <Filter>Source Files\GameSystem\ItemLimitManager</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoNoteManager.h">
+      <Filter>Source Files\GameSystem\AutoNote</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoNoteRoom.h">
+      <Filter>Source Files\GameSystem\AutoNote</Filter>
+    </ClInclude>
+    <ClInclude Include="FortWarManager.h">
+      <Filter>Source Files\GameSystem\FortWarManager</Filter>
+    </ClInclude>
+    <ClInclude Include="RechargeRecordManager.h">
+      <Filter>Source Files\NewSystem\RechargeRecord</Filter>
+    </ClInclude>
+    <ClInclude Include="Date.h">
+      <Filter>Source Files\NewSystem\SingedManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SingedManager.h">
+      <Filter>Source Files\NewSystem\SingedManager</Filter>
+    </ClInclude>
+    <ClInclude Include="sRestManager.h">
+      <Filter>Source Files\NewSystem\RestManager</Filter>
+    </ClInclude>
+    <ClInclude Include="KillTopManager.h">
+      <Filter>Source Files\NewSystem\KillTopListManager</Filter>
+    </ClInclude>
+    <ClInclude Include="LimitItemDropManager.h">
+      <Filter>Source Files\NewSystem\LimitItemDropManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ShopItemLimitManager.h">
+      <Filter>Source Files\NewSystem\ShopItemLimitManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]ServerModule\BootManager.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]ServerModule\CommonDBMsgParser.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]ServerModule\Console.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]ServerModule\console_type.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]ServerModule\DataBase.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]ServerModule\DB.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]ServerModule\DBThreadInterface.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]ServerModule\define.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]ServerModule\iconsole.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]ServerModule\iconsole_guid.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]ServerModule\inetwork.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]ServerModule\MiniDumper.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]ServerModule\net_define.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]ServerModule\Network.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]ServerModule\network_guid.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]ServerModule\Noncopyable.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]ServerModule\ServerListManager.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]ServerModule\TConsole_Def.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]ServerModule\TConsole_Guids.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]ServerModule\TConsole_Interface.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]ServerModule\typedef.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Header\AddableInfo.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Header\ClientGameDefine.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Header\ClientGameStruct.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Header\CommonCalcFunc.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Header\CommonDefine.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Header\CommonGameDefine.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Header\CommonGameFunc.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Header\CommonGameStruct.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Header\CommonStruct.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Header\CommonStructMS.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Header\GameResourceManager.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Header\GameResourceStruct.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Header\Protocol.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Header\ServerGameDefine.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Header\ServerGameStruct.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Header\vector.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Header\TargetList\TargetData.h">
+      <Filter>Common\TargetList No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Header\TargetList\TargetList.h">
+      <Filter>Common\TargetList No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Header\TargetList\TargetListIterator.h">
+      <Filter>Common\TargetList No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Skill\DelayGroup.h">
+      <Filter>Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Skill\skillinfo.h">
+      <Filter>Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Skill\SkillManager_client.h">
+      <Filter>Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Skill\skillmanager_server.h">
+      <Filter>Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Skill\ValueInSung.h">
+      <Filter>Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Skill\SkillArea.h">
+      <Filter>Skill\Area</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Skill\SkillAreaData.h">
+      <Filter>Skill\Area</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Skill\SkillAreaManager.h">
+      <Filter>Skill\Area</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Skill\SkillObject_client.h">
+      <Filter>Skill\SkillObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Skill\SkillObject_Mine.h">
+      <Filter>Skill\SkillObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Skill\skillobject_server.h">
+      <Filter>Skill\SkillObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Skill\SkillObjectFactory.h">
+      <Filter>Skill\SkillObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Skill\SkillObjectTargetList.h">
+      <Filter>Skill\SkillObject\TargetList</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Skill\SkillObjectTargetList_Area.h">
+      <Filter>Skill\SkillObject\TargetList</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Skill\SkillObjectTargetList_Circle.h">
+      <Filter>Skill\SkillObject\TargetList</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Skill\SkillObjectTargetList_Fixed.h">
+      <Filter>Skill\SkillObject\TargetList</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Skill\SkillObjectTargetList_One.h">
+      <Filter>Skill\SkillObject\TargetList</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Skill\SkillObjectSingleUnit.h">
+      <Filter>Skill\SkillObject\SingleUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Skill\SkillObjectSingleUnit_Attack.h">
+      <Filter>Skill\SkillObject\SingleUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Skill\SkillObjectSingleUnit_Heal.h">
+      <Filter>Skill\SkillObject\SingleUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Skill\SkillObjectSingleUnit_Recharge.h">
+      <Filter>Skill\SkillObject\SingleUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Skill\SkillObjectTerminator.h">
+      <Filter>Skill\SkillObject\Terminator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Skill\SkillObjectTerminator_Time.h">
+      <Filter>Skill\SkillObject\Terminator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Skill\SkillObjectFirstUnit.h">
+      <Filter>Skill\SkillObject\FirstUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Skill\SkillObjectFirstUnit_Attack.h">
+      <Filter>Skill\SkillObject\FirstUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Skill\SkillObjectFirstUnit_Job.h">
+      <Filter>Skill\SkillObject\FirstUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Skill\SkillObjectFirstUnit_Recover.h">
+      <Filter>Skill\SkillObject\FirstUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Skill\SkillObjectFirstUnit_SingleSpecialState.h">
+      <Filter>Skill\SkillObject\FirstUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Skill\SkillObjectStateUnit.h">
+      <Filter>Skill\SkillObject\StateUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Skill\SkillObjectStateUnit_AmplifiedPower.h">
+      <Filter>Skill\SkillObject\StateUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Skill\SkillObjectStateUnit_DummyState.h">
+      <Filter>Skill\SkillObject\StateUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Skill\SkillObjectStateUnit_StatusAttach.h">
+      <Filter>Skill\SkillObject\StateUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Skill\SkillObjectStateUnit_TieUp.h">
+      <Filter>Skill\SkillObject\StateUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Skill\SkillObjectAttachUnit.h">
+      <Filter>Skill\SkillObject\AttachUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Skill\SkillObjectAttachUnit_Attack.h">
+      <Filter>Skill\SkillObject\AttachUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Skill\SkillObjectAttachUnit_CounterAttack.h">
+      <Filter>Skill\SkillObject\AttachUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Skill\SkillObjectAttachUnit_Defence.h">
+      <Filter>Skill\SkillObject\AttachUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Skill\SkillObjectAttachUnit_Dodge1.h">
+      <Filter>Skill\SkillObject\AttachUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Skill\SkillObjectAttachUnit_Immune.h">
+      <Filter>Skill\SkillObject\AttachUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Skill\SkillObjectAttachUnit_MaxLife.h">
+      <Filter>Skill\SkillObject\AttachUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Skill\SkillObjectAttachUnit_MoveSpeed.h">
+      <Filter>Skill\SkillObject\AttachUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Skill\SkillObjectAttachUnit_SkipEffect.h">
+      <Filter>Skill\SkillObject\AttachUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Skill\SkillObjectAttachUnit_Vampiric.h">
+      <Filter>Skill\SkillObject\AttachUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Skill\Status.h">
+      <Filter>Skill\Status</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackCalc.h">
+      <Filter>Skill\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackManager.h">
+      <Filter>Skill\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Skill\AmplifiedPower.h">
+      <Filter>Skill\SpecialState</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Skill\DetectState.h">
+      <Filter>Skill\SpecialState</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Skill\SpecialState.h">
+      <Filter>Skill\SpecialState</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Skill\StunState.h">
+      <Filter>Skill\SpecialState</Filter>
+    </ClInclude>
+    <ClInclude Include="Distributer.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="MapObject.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Npc.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectEvent.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Pet.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="PetManager.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="PetSpeechManager.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Titan.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="BossMonster.h">
+      <Filter>Object\BossMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="BossMonsterInfo.h">
+      <Filter>Object\BossMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="BossMonsterManager.h">
+      <Filter>Object\BossMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="BossRewardsManager.h">
+      <Filter>Object\BossMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="BossState.h">
+      <Filter>Object\BossMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="SummonGroup.h">
+      <Filter>Object\BossMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="SummonInfo.h">
+      <Filter>Object\BossMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="SummonMonster.h">
+      <Filter>Object\BossMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldBossMonster.h">
+      <Filter>Object\FieldBossMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldBossMonsterManager.h">
+      <Filter>Object\FieldBossMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldSubMonster.h">
+      <Filter>Object\FieldBossMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]BattleSystem\BattleSystem_Client.h">
+      <Filter>BattleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]BattleSystem\BattleSystem_Server.h">
+      <Filter>BattleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="SiegeWarGiveItem.h">
+      <Filter>BattleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]BattleSystem\MunpaField\Battle_MunpaField.h">
+      <Filter>BattleSystem\MunpaField</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]BattleSystem\MunpaField\BattleFactory_MunpaField.h">
+      <Filter>BattleSystem\MunpaField</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]BattleSystem\MunpaField\BattleTeam_MunpaField.h">
+      <Filter>BattleSystem\MunpaField</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]BattleSystem\Battle.h">
+      <Filter>BattleSystem\BaseBattle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]BattleSystem\BattleFactory.h">
+      <Filter>BattleSystem\BaseBattle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]BattleSystem\BattleObject.h">
+      <Filter>BattleSystem\BaseBattle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]BattleSystem\BattleRect.h">
+      <Filter>BattleSystem\BaseBattle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]BattleSystem\BattleTeam.h">
+      <Filter>BattleSystem\BaseBattle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]BattleSystem\VimuStreet\Battle_VimuStreet.h">
+      <Filter>BattleSystem\VimuStreet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]BattleSystem\VimuStreet\BattleFactory_VimuStreet.h">
+      <Filter>BattleSystem\VimuStreet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]BattleSystem\VimuStreet\BattleTeam_VimuStreet.h">
+      <Filter>BattleSystem\VimuStreet</Filter>
+    </ClInclude>
+    <ClInclude Include="VimuManager.h">
+      <Filter>BattleSystem\VimuStreet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]BattleSystem\MurimField\battle_murimfield.h">
+      <Filter>BattleSystem\MurimField</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]BattleSystem\MurimField\battlefactory_murimfield.h">
+      <Filter>BattleSystem\MurimField</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]BattleSystem\MurimField\battleteam_murimfield.h">
+      <Filter>BattleSystem\MurimField</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]BattleSystem\GTournament\Battle_GTournament.h">
+      <Filter>BattleSystem\GTournament</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]BattleSystem\GTournament\BattleFactory_GTournament.h">
+      <Filter>BattleSystem\GTournament</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]BattleSystem\GTournament\BattleTeam_GTournament.h">
+      <Filter>BattleSystem\GTournament</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleFactory_Default.h">
+      <Filter>BattleSystem\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]BattleSystem\SiegeWar\Battle_SiegeWar.h">
+      <Filter>BattleSystem\SiegeWar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]BattleSystem\SiegeWar\BattleFactory_SiegeWar.h">
+      <Filter>BattleSystem\SiegeWar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]BattleSystem\SiegeWar\BattleTeam_SiegeWar.h">
+      <Filter>BattleSystem\SiegeWar</Filter>
+    </ClInclude>
+    <ClInclude Include="AIDefine.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AIManager.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AIParam.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="HelpRequestManager.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgRouter.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="PatternObject.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="RecallManager.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachinen.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="StateParam.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AIGroupManager.h">
+      <Filter>AI\New No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="AIGroupPrototype.h">
+      <Filter>AI\New No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="AISystem.h">
+      <Filter>AI\New No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="AIUniqueGroup.h">
+      <Filter>AI\New No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="GroupRegenInfo.h">
+      <Filter>AI\New No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="RegenConditionInfo.h">
+      <Filter>AI\New No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="RegenManager.h">
+      <Filter>AI\New No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="RegenPrototype.h">
+      <Filter>AI\New No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\4DyuchiGRX_common\FileStorage_typedef.h">
+      <Filter>EngineLib\common No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\4DyuchiGRX_common\GXSCHEDULE_PROC_MSG.h">
+      <Filter>EngineLib\common No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\4DyuchiGRX_common\IAudio.h">
+      <Filter>EngineLib\common No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\4DyuchiGRX_common\IAudio_GUID.h">
+      <Filter>EngineLib\common No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\4DyuchiGRX_common\IExecutive.h">
+      <Filter>EngineLib\common No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\4DyuchiGRX_common\IExecutive_GUID.h">
+      <Filter>EngineLib\common No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\4DyuchiGRX_common\IFileStorage.h">
+      <Filter>EngineLib\common No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\4DyuchiGRX_common\IFileStorage_GUID.h">
+      <Filter>EngineLib\common No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\4DyuchiGRX_common\IGeometry.h">
+      <Filter>EngineLib\common No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\4DyuchiGRX_common\IGeometry_GUID.h">
+      <Filter>EngineLib\common No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\4DyuchiGRX_common\IRenderer.h">
+      <Filter>EngineLib\common No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\4DyuchiGRX_common\IRenderer_GUID.h">
+      <Filter>EngineLib\common No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\4DyuchiGRX_common\mesh_flag.h">
+      <Filter>EngineLib\common No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\4DyuchiGRX_common\motion_flag.h">
+      <Filter>EngineLib\common No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\4DyuchiGRX_common\StdAfx.h">
+      <Filter>EngineLib\common No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\4DyuchiGRX_common\typedef.h">
+      <Filter>EngineLib\common No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\4DyuchiGXGFunc\global.h">
+      <Filter>EngineLib\func</Filter>
+    </ClInclude>
+    <ClInclude Include="..\4DyuchiGXGFunc\type.h">
+      <Filter>EngineLib\func</Filter>
+    </ClInclude>
+    <ClInclude Include="Condition\ACTION.h">
+      <Filter>EngineLib\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="Condition\ACTION_exe.h">
+      <Filter>EngineLib\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="Condition\ACTION_incl.h">
+      <Filter>EngineLib\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="Condition\ActionManager.h">
+      <Filter>EngineLib\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="Condition\ConditionFactory.h">
+      <Filter>EngineLib\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="Condition\ConditionManager.h">
+      <Filter>EngineLib\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="Condition\ConditionNode.h">
+      <Filter>EngineLib\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="Condition\ConditionObject.h">
+      <Filter>EngineLib\Condition\ConditionObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Condition\ConditionObjectManager.h">
+      <Filter>EngineLib\Condition\ConditionObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Condition\DATA.h">
+      <Filter>EngineLib\Condition\ConditionObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Condition\OPDATA.h">
+      <Filter>EngineLib\Condition\ConditionObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Condition\RESOURCE.h">
+      <Filter>EngineLib\Condition\ConditionObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Condition\SITUATION.h">
+      <Filter>EngineLib\Condition\ConditionObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Condition\SITUATION_exe.h">
+      <Filter>EngineLib\Condition\ConditionObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Condition\SITUATION_incl.h">
+      <Filter>EngineLib\Condition\ConditionObject</Filter>
+    </ClInclude>
+    <ClInclude Include="PathManager.h">
+      <Filter>Path</Filter>
+    </ClInclude>
+    <ClInclude Include="STRPath.h">
+      <Filter>Path</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Ability\Ability.h">
+      <Filter>Ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Ability\AbilityCommonHeader.h">
+      <Filter>Ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Ability\AbilityGroup.h">
+      <Filter>Ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Ability\AbilityInfo.h">
+      <Filter>Ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Ability\AbilityManager.h">
+      <Filter>Ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Ability\AbilityUpdater.h">
+      <Filter>Ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Ability\AbilityUpdater_ApplyData.h">
+      <Filter>Ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Ability\AbilityUpdater_CheckLevelUp.h">
+      <Filter>Ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Ability\AbilityUpdater_Database.h">
+      <Filter>Ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Ability\AbilityUse.h">
+      <Filter>Ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Ability\AbilityUse_Job.h">
+      <Filter>Ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Ability\AbilityUse_KyungGong.h">
+      <Filter>Ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Ability\AbilityUse_Pet.h">
+      <Filter>Ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Ability\AbilityUse_Society.h">
+      <Filter>Ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Suryun\SuryunDefine.h">
+      <Filter>Suryun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Suryun\SuryunManager_client.h">
+      <Filter>Suryun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]Suryun\SuryunManager_server.h">
+      <Filter>Suryun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]BattleSystem\Suryun\Battle_Suryun.h">
+      <Filter>Suryun\Battle Suryun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]BattleSystem\Suryun\BattleFactory_Suryun.h">
+      <Filter>Suryun\Battle Suryun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[CC]BattleSystem\Suryun\BattleTeam_Suryun.h">
+      <Filter>Suryun\Battle Suryun</Filter>
+    </ClInclude>
+    <ClInclude Include="SuryunRegen.h">
+      <Filter>Suryun\SuryunRegen</Filter>
+    </ClInclude>
+    <ClInclude Include="SuryunRegenGroup.h">
+      <Filter>Suryun\SuryunRegen</Filter>
+    </ClInclude>
+    <ClInclude Include="SuryunRegenGroupInfo.h">
+      <Filter>Suryun\SuryunRegen</Filter>
+    </ClInclude>
+    <ClInclude Include="SuryunRegenInfo.h">
+      <Filter>Suryun\SuryunRegen</Filter>
+    </ClInclude>
+    <ClInclude Include="SuryunRegenManager.h">
+      <Filter>Suryun\SuryunRegen</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexManager.h" />
+    <ClInclude Include="..\UnionWarManager.h">
+      <Filter>Source Files\GameSystem\FortWarManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\4DyuchiGRX_common\math.inl">
+      <Filter>EngineLib\common No. 1</Filter>
+    </None>
+  </ItemGroup>
+</Project>

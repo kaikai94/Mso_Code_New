@@ -1,0 +1,185 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\CryptStringTool.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""afxres.rc""     // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\PackingTool12.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CRYPTSTRINGTOOL_DIALOG DIALOGEX 0, 0, 347, 238
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "bin工具加密字符串key生成工具  BY:十里坡剑神 QQ:112582793"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    LTEXT           "打开字符串(32位长度):",IDC_STATIC,17,35,85,8
+    LTEXT           "保存字符串(32位长度):",IDC_STATIC,17,57,85,8
+    EDITTEXT        IDC_EDIT1,110,32,172,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,110,54,172,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "生成",IDC_BUTTON1,292,31,38,62
+    LTEXT           "打开CRC:",IDC_STATIC,17,81,33,8
+    LTEXT           "保存CRC:",IDC_STATIC,110,81,33,8
+    EDITTEXT        IDC_EDIT3,55,78,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,147,78,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "选择保存密钥的图片",IDC_BUTTON2,198,76,84,17
+    GROUPBOX        "加密图片读取",IDC_STATIC,13,120,322,103
+    GROUPBOX        "加密图片生成",IDC_STATIC,13,12,322,100
+    LTEXT           "打开字符串(32位长度):",IDC_STATIC,41,149,85,8
+    LTEXT           "保存字符串(32位长度):",IDC_STATIC,41,171,85,8
+    EDITTEXT        IDC_EDIT5,134,145,172,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT6,134,167,172,14,ES_AUTOHSCROLL
+    LTEXT           "打开CRC:",IDC_STATIC,41,195,33,8
+    LTEXT           "保存CRC:",IDC_STATIC,134,195,33,8
+    EDITTEXT        IDC_EDIT7,79,191,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT8,171,191,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "选择加密过的图片",IDC_BUTTON3,222,189,84,17
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "<十里坡剑神>"
+            VALUE "FileDescription", "<bin工具加密字符串key生成工具>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "bin工具加密字符串key生成工具.exe"
+            VALUE "LegalCopyright", " (C) <十里坡剑神>。保留所有权利。"
+            VALUE "OriginalFilename", "bin工具加密字符串key生成工具.exe"
+            VALUE "ProductName", "<bin工具加密字符串key生成工具>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_CRYPTSTRINGTOOL_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 340
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 230
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\CryptStringTool.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "afxres.rc"     // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

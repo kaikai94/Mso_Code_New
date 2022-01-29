@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{60642516-c987-437b-998e-cd59da0d87e3}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="scene">
+      <UniqueIdentifier>{4d5ed09e-7016-4060-a78b-8a82b01971fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physique">
+      <UniqueIdentifier>{9b5b2e16-079f-4909-8e64-14a7f14044fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{412f1078-6853-4415-93b5-457c9dbdd245}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="export.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\max_common\helper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="maxexp_global.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="motion_obj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="object_property.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="phyexp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="phymod.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\max_common\UserDefine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="uv_plane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="camera_obj.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="face_group.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="geom_obj.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="light_obj.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="material.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Physique.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="bone_obj.cpp">
+      <Filter>physique</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="maxexp.def">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Script1.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="camera_obj.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="face_group.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="geom_obj.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="light_obj.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="material.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Physique.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="BIPEXP.H">
+      <Filter>physique</Filter>
+    </ClInclude>
+    <ClInclude Include="bone_obj.h">
+      <Filter>physique</Filter>
+    </ClInclude>
+    <ClInclude Include="PHYEXP.H">
+      <Filter>physique</Filter>
+    </ClInclude>
+    <ClInclude Include="chunk_id.h" />
+    <ClInclude Include="dialog.h" />
+    <ClInclude Include="dllmain.h" />
+    <ClInclude Include="export.h" />
+    <ClInclude Include="..\max_common\helper.h" />
+    <ClInclude Include="maxexp_global.h" />
+    <ClInclude Include="model.h" />
+    <ClInclude Include="motion_obj.h" />
+    <ClInclude Include="object_property.h" />
+    <ClInclude Include="phymod.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="..\max_common\UserDefine.h" />
+    <ClInclude Include="uv_plane.h" />
+  </ItemGroup>
+</Project>

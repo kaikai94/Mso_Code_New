@@ -1,0 +1,53 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+// AbilityUpdater.cpp: implementation of the CAbilityUpdater class.
+
+//
+
+
+//////////////////////////////////////////////////////////////////////
+
+
+
+#include "stdafx.h"
+#include "AbilityUpdater.h"
+
+#include "AbilityGroup.h"
+
+
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+
+CAbilityUpdater::CAbilityUpdater()
+{
+
+
+}
+
+
+
+CAbilityUpdater::~CAbilityUpdater()
+
+{
+
+
+
+}
+
+
+
+

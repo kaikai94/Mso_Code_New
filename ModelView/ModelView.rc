@@ -1,0 +1,619 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\ModelView.ico"
+IDR_MODELVTYPE          ICON                    "res\\ModelViewDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU 
+BEGIN
+    POPUP "文件(&File)"
+    BEGIN
+        MENUITEM "新建",                          ID_FILE_NEW
+        MENUITEM SEPARATOR
+        MENUITEM "打开",                          ID_OEPN_CH_FILE
+        MENUITEM "导入chr文件",                     ID_EXPORT_CHR
+        MENUITEM SEPARATOR
+        MENUITEM "打开MOD文件",                     ID_OPEN_MOD
+        MENUITEM "打开anm文件",                     ID_OPEN_ANM
+        MENUITEM "打开MTL文件",                     ID_OPEN_MTL
+        MENUITEM SEPARATOR
+        MENUITEM "关闭MOD文件",                     ID_CLOSE_MOD
+        MENUITEM "关闭anm文件",                     ID_CLOSE_ANM
+        MENUITEM "关闭MTL文件",                     ID_CLOSE_MTL
+        MENUITEM SEPARATOR
+        MENUITEM "打开音频文件(WAV)",                 ID_OPEN_WAV
+        MENUITEM "关闭音频文件(WAV)",                 ID_CLOSE_WAV
+        MENUITEM "清空音频文件列表",                    ID_WAV_LIST_CLEAR
+        MENUITEM SEPARATOR
+        MENUITEM "退出",                          ID_APP_EXIT
+    END
+    POPUP "其他(&Etc)"
+    BEGIN
+        MENUITEM "设置动画FPS",                     IDC_SET_FRAME
+        MENUITEM "方向灯光设置",                      IDC_LIGHT_DIALOG
+        MENUITEM "反射光设置",                       ID_SPECULAR_SETTING
+        MENUITEM SEPARATOR
+        MENUITEM "显示网格",                        IDC_GRID_DISPLAY
+        MENUITEM "显示碰撞盒",                       IDC_BOUNDING_DRAW
+        MENUITEM "显示骨骼",                        IDC_BONE_BOUNDING_DRAW
+        MENUITEM "线框视图",                        IDM_WIREMODE
+        MENUITEM "查看实线底部模式",                    IDM_BOTHMODE
+        MENUITEM "背景颜色设置(&B)",                  IDM_SET_BACKGROUND_COLOR
+        MENUITEM "视图效果",                        ID_VIEW_EFFECT_PALETTE
+        MENUITEM SEPARATOR
+        MENUITEM "渲染视角信息",                      ID_RENDER_CAMERA_INFO
+        MENUITEM SEPARATOR
+        MENUITEM "关于",                          ID_APP_ABOUT
+    END
+    POPUP "阴影(&Illumination)"
+    BEGIN
+        MENUITEM "阴影模型加载",                      IDM_ILLUMINATION_LOAD
+        MENUITEM "阴影模型删除",                      IDM_ILLUMINATION_UNLOAD
+        MENUITEM SEPARATOR
+        MENUITEM "阴影设置(&S)",                    IDM_ILLUMINATION_SETUP
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG  0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ModelView ??"
+FONT 9, "??"
+BEGIN
+    LTEXT           "Copyright (C) S.S 3D engine team",IDC_STATIC,13,25,119,8
+    DEFPUSHBUTTON   "Ok",IDOK,178,7,50,14,WS_GROUP
+    LTEXT           "Super Shovel 3D engine model viewer",IDC_STATIC_HAHA,14,13,130,8
+END
+
+IDD_FRAME_SPEED_DIALOG DIALOGEX 0, 0, 130, 71
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "???", 0, 0, 0x0
+BEGIN
+    LTEXT           "请输入1秒内动画帧数:",IDC_STATIC,7,7,116,17
+    LTEXT           "FPS :",IDC_STATIC,7,34,23,10
+    EDITTEXT        IDC_EDIT_FPS,30,32,63,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "确认",IDC_FPS_OK_BUTTON,88,52,35,12
+END
+
+IDD_LIGHT_DIALOG DIALOGEX 0, 0, 163, 191
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "???", 0, 0, 0x0
+BEGIN
+    LTEXT           "< 灯光设置 >",IDC_STATIC,7,7,149,10
+    LTEXT           "漫反射",IDC_STATIC,5,40,35,9
+    LTEXT           "红",IDC_STATIC,55,25,9,9
+    LTEXT           "绿",IDC_STATIC,90,25,9,9
+    LTEXT           "蓝",IDC_STATIC,125,25,9,9
+    LTEXT           "环境光",IDC_STATIC,5,55,30,10
+    LTEXT           "镜面光",IDC_STATIC,5,70,34,10
+    EDITTEXT        IDC_EDT_DIF_R,45,40,30,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDT_DIF_G,80,40,30,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDT_DIF_B,115,40,30,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDT_AMB_R,45,55,30,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDT_AMB_G,80,55,30,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDT_AMB_B,115,55,30,12,ES_AUTOHSCROLL
+    LTEXT           "< 方向 >",IDC_STATIC,5,95,59,10
+    LTEXT           "X轴",IDC_STATIC,13,110,15,10
+    LTEXT           "Y轴",IDC_STATIC,13,125,15,10
+    LTEXT           "Z轴",IDC_STATIC,13,140,15,10
+    EDITTEXT        IDC_DIRECTION_X,35,110,35,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_DIRECTION_Z,35,140,35,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_DIRECTION_Y,35,125,35,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "确认",IDC_LIGHT_OK_BUTTON,121,169,35,15
+    CONTROL         "灯光开启",IDC_LIGHT_CHECK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,90,112,54,12
+END
+
+IDD_DIALOGBAR DIALOGEX 0, 0, 483, 14
+STYLE DS_SETFONT | WS_CHILD
+FONT 10, "System", 0, 0, 0x1
+BEGIN
+    SCROLLBAR       IDC_FRAME_SCROLL,0,2,153,10
+    LTEXT           "0/0",IDC_FRAME_STATIC,153,2,31,11
+    PUSHBUTTON      "播放",IDC_PLAY_BUTTON,189,2,29,11
+    PUSHBUTTON      "停止",IDC_STOP_BUTTON,219,2,27,11
+    CONTROL         "播放声音",IDC_PLAY_SOUND_CHECK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,250,2,43,11
+    EDITTEXT        IDC_EDIT_ALPHA,295,1,25,12,ES_AUTOHSCROLL
+    LTEXT           "",IDC_STATIC_PICK_OBJNAME,323,2,85,11,0,WS_EX_CLIENTEDGE
+END
+
+IDD_SPECULAR_DIALOG DIALOGEX 0, 0, 157, 111
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "???", 0, 0, 0x0
+BEGIN
+    LTEXT           "< 镜面光设置 >",IDC_STATIC,14,7,95,12
+    CONTROL         "镜面光启用",IDC_SPECULAR_ENABLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,81,61,72,11
+    PUSHBUTTON      "确定",IDC_SPEC_SET_OK,114,91,39,14
+    LTEXT           "未设定对象配置目录（范围0.0-255.0）",IDC_STATIC,16,26,66,34
+    EDITTEXT        IDC_SPEC_INTENSITY,89,33,64,12,ES_AUTOHSCROLL
+END
+
+IDD_ILLUSION_ATTACH_DIALOG DIALOG  0, 0, 407, 289
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "??? ???? MOD? ?? ????? ?????."
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "Load MOD",ID_ILLUMINATION_LOAD_OK,350,7,50,14
+    PUSHBUTTON      "Cancel",ID_ILLUMINATION_DLG_CANCEL,350,24,50,14
+    LISTBOX         IDC_ILLUSION_MOD_LIST,7,21,332,100,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_ILLUSION_OBJECT_LIST,7,155,334,127,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "MOD to attach",IDC_ILLU_DLG_TEXT_MOD,7,7,54,15
+    LTEXT           "Object to attach",IDC_ILLU_DLG_TEXT_OBJECT,7,138,59,17
+END
+
+IDD_ILLUSION_SETUP DIALOGEX 0, 0, 187, 98
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "残影设置"
+FONT 10, "System", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_ILLUSION_SETUP_DLG_LENGTH_EDIT,60,16,44,17,ES_AUTOHSCROLL
+    CONTROL         "显示",IDC_ILLUSION_SETUP_SHOW_CHECK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,133,16,38,16
+    LTEXT           "残影长度:",IDC_ILLUSION_SETUP_LENGTH_STATIC,17,20,35,21
+END
+
+IDD_SET_BACKGROUND_COLOR DIALOGEX 0, 0, 154, 86
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "背景色设置"
+FONT 10, "System", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,97,7,50,14
+    PUSHBUTTON      "取消",IDCANCEL,97,24,50,14
+    EDITTEXT        IDC_BACKGROUNDCOLOR_R,37,19,37,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_BACKGROUNDCOLOR_G,37,36,37,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_BACKGROUNDCOLOR_B,37,55,37,12,ES_AUTOHSCROLL
+    LTEXT           "红",IDC_STATIC,23,20,8,11
+    LTEXT           "绿",IDC_STATIC,23,38,9,12
+    LTEXT           "蓝",IDC_STATIC,23,57,9,15
+    PUSHBUTTON      "默认值",IDC_SET_BACKGROUNDCOLOR_DEFAULT,98,62,49,17
+END
+
+IDD_DIALOG_EFFECTPALETTE DIALOGEX 0, 0, 246, 244
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION
+CAPTION "效果设计"
+FONT 10, "System", 0, 0, 0x0
+BEGIN
+    LISTBOX         IDC_LIST_EFFECT,8,7,178,162,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    CONTROL         "波形",IDC_CHECK_TEXGEN_WAVE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,183,38,9
+    CONTROL         "禁用闪烁扫描",IDC_CHECK_DISABLE_SRCTEX,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,193,63,11
+    PUSHBUTTON      "保存",IDC_BUTTON_EFFECT_SAVE,194,81,41,11
+    PUSHBUTTON      "加载",IDC_BUTTON_EFFECT_LOAD,194,112,41,11
+    PUSHBUTTON      "删除",IDC_BUTTON_EFFECT_DELETE,194,50,41,11
+    PUSHBUTTON      "创建",IDC_BUTTON_EFFECT_CREATE,194,19,41,11
+    PUSHBUTTON      "更新",IDC_BUTTON_UPDATE_EFFECT_PALETTE,194,143,41,11
+    GROUPBOX        "编辑",IDC_STATIC,2,173,241,67
+    PUSHBUTTON      "应用",IDC_BUTTON_EFFECT_APPLY,102,221,24,12
+    PUSHBUTTON      "浏览",IDC_BUTTON_BROWSE_TEXFILE,194,205,41,11
+    EDITTEXT        IDC_EDIT_TEX_NAME,8,205,185,11,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_CREATE_EFFECT DIALOGEX 0, 0, 125, 18
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP
+FONT 10, "System", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_EDIT_EFFECT_NAME,1,2,90,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "确定",IDC_BUTTON_EFFECT_NAME_OK,93,2,27,12
+END
+
+IDD_DIALOG_FRONT_OF_CAMERA DIALOGEX 0, 0, 153, 133
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System", 0, 0, 0x1
+BEGIN
+    LTEXT           "摄像机视角固定、选择、修改属性窗口",IDC_STATIC,7,7,122,21
+    LTEXT           "当前选中的投影 :",IDC_STATIC,7,31,86,12
+    LTEXT           "",IDC_FOC_CURRENT_OBJECT_STATIC,7,44,83,13,0,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "对象边缘",IDC_FOC_BROWSE_BUTTON,99,44,43,13
+    EDITTEXT        IDC_FOC_ALPHA_EDIT,55,62,38,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Alpha ??",IDC_FOC_ALPHA_BUTTON,99,61,43,13
+    LTEXT           "Alpha value :\n ( 0 ~ 255 )",IDC_STATIC,7,62,43,23
+    PUSHBUTTON      "删除对象",IDC_FOC_REMOVE_BUTTON,99,111,43,13
+    LTEXT           "摄像机距离",IDC_STATIC,7,87,42,11
+    EDITTEXT        IDC_FOC_DISTANCE_EDIT,55,85,38,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "适用距离",IDC_FOC_DISTANCE_BUTTON,99,84,43,13
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_FRAME_SPEED_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 123
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 64
+    END
+
+    IDD_LIGHT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 156
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 184
+    END
+
+    IDD_DIALOGBAR, DIALOG
+    BEGIN
+        RIGHTMARGIN, 479
+        BOTTOMMARGIN, 13
+    END
+
+    IDD_SPECULAR_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 153
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 105
+    END
+
+    IDD_ILLUSION_ATTACH_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 400
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 282
+    END
+
+    IDD_ILLUSION_SETUP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 91
+    END
+
+    IDD_SET_BACKGROUND_COLOR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 147
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 79
+    END
+
+    IDD_DIALOG_EFFECTPALETTE, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 243
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 240
+    END
+
+    IDD_DIALOG_CREATE_EFFECT, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 122
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 15
+    END
+
+    IDD_DIALOG_FRONT_OF_CAMERA, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 146
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 126
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_TOOLBAR TOOLBAR  40, 15
+BEGIN
+    BUTTON      IDC_COMBO1
+    BUTTON      IDC_COMBO2
+    BUTTON      IDC_COMBO3
+    BUTTON      IDC_COMBO4
+    SEPARATOR
+    BUTTON      IDC_RESET_CAMERA
+    SEPARATOR
+    BUTTON      IDC_SELECT_ALL_MOD
+    SEPARATOR
+    BUTTON      IDC_LIGHT_DIALOG
+    SEPARATOR
+    BUTTON      IDC_FRONT_OF_CAMERA
+    BUTTON      IDC_FRONT_OF_CAMERA_STATIC
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_TOOLBAR             BITMAP                  "res\\toolbar1.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDR_MAINFRAME           "ModelView\n\nModelV\n\n\nModelView.Document\nModelV Document"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "ModelView"
+    AFX_IDS_IDLEMESSAGE     "??"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_NEW             "? ??? ?????\n? ??"
+    ID_FILE_OPEN            "?? ??? ???\n??"
+    ID_FILE_CLOSE           "?? ?? ??? ????\n??"
+    ID_FILE_SAVE            "?? ?? ??? ?????\n??"
+    ID_FILE_SAVE_AS         "?? ?? ??? ?? ???? ?????\n?? ???? ??"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_APP_ABOUT            "???? ??? ?? ??, ??? ??? ?????\n??"
+    ID_APP_EXIT             "?? ????? ???? ?? ??? ??? ??? ????\n??"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "? ??? ???"
+    ID_FILE_MRU_FILE2       "? ??? ???"
+    ID_FILE_MRU_FILE3       "? ??? ???"
+    ID_FILE_MRU_FILE4       "? ??? ???"
+    ID_FILE_MRU_FILE5       "? ??? ???"
+    ID_FILE_MRU_FILE6       "? ??? ???"
+    ID_FILE_MRU_FILE7       "? ??? ???"
+    ID_FILE_MRU_FILE8       "? ??? ???"
+    ID_FILE_MRU_FILE9       "? ??? ???"
+    ID_FILE_MRU_FILE10      "? ??? ???"
+    ID_FILE_MRU_FILE11      "? ??? ???"
+    ID_FILE_MRU_FILE12      "? ??? ???"
+    ID_FILE_MRU_FILE13      "? ??? ???"
+    ID_FILE_MRU_FILE14      "? ??? ???"
+    ID_FILE_MRU_FILE15      "? ??? ???"
+    ID_FILE_MRU_FILE16      "? ??? ???"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_NEXT_PANE            "?? ??? ?????\n?? ?"
+    ID_PREV_PANE            "?? ??? ?????\n?? ?"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "?? ?? ?? ????\n???"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_EDIT_CLEAR           "?? ??? ????\n???"
+    ID_EDIT_CLEAR_ALL       "?? ?? ????\n?? ???"
+    ID_EDIT_COPY            "?? ??? ???? ????? ????\n??"
+    ID_EDIT_CUT             "?? ??? ???? ????? ????\n????"
+    ID_EDIT_FIND            "??? ???? ????\n??"
+    ID_EDIT_PASTE           "????? ??? ?? ????\n????"
+    ID_EDIT_REPEAT          "????? ??? ??? ?????\n??"
+    ID_EDIT_REPLACE         "??? ???? ?? ???? ????\n???"
+    ID_EDIT_SELECT_ALL      "?? ??? ?????\n?? ??"
+    ID_EDIT_UNDO            "????? ? ??? ?????\n?? ??"
+    ID_EDIT_REDO            "??? ??? ??? ?? ?????\n?? ??"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "?? ??? ?????"
+    AFX_IDS_SCMOVE          "?? ??? ?????"
+    AFX_IDS_SCMINIMIZE      "?? ????? ??? ?????"
+    AFX_IDS_SCMAXIMIZE      "?? ?? ??? ?????"
+    AFX_IDS_SCNEXTWINDOW    "?? ?? ??? ?????"
+    AFX_IDS_SCPREVWINDOW    "?? ?? ??? ?????"
+    AFX_IDS_SCCLOSE         "?? ?? ?? ?? ??? ??? ???? ????"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "?? ?? ??? ?????"
+    AFX_IDS_SCTASKLIST      "?? ??? ??????"
+END
+
+STRINGTABLE 
+BEGIN
+    IDC_COMBO1              "模型文件列表"
+    IDC_COMBO2              "动作文件列表"
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 朝鲜语 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 18, 1\r\n"
+    "#pragma code_page(949)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\ModelView.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.kor\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,1,1
+ PRODUCTVERSION 1,0,1,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041204b0"
+        BEGIN
+            VALUE "Comments", "build 2007.06.05"
+            VALUE "CompanyName", "Eya Interactive"
+            VALUE "FileDescription", "ModelView MFC ?? ????"
+            VALUE "FileVersion", "1, 0, 1, 1"
+            VALUE "InternalName", "ModelView"
+            VALUE "LegalCopyright", "Eya Interactive R&D Dev. Copyright ? 2007"
+            VALUE "OriginalFilename", "ModelView.EXE"
+            VALUE "ProductName", "ModelView ?? ????"
+            VALUE "ProductVersion", "1, 0, 1, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 1200
+    END
+END
+
+#endif    // 朝鲜语 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE 18, 1
+#pragma code_page(949)
+#endif //_WIN32
+#include "res\ModelView.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.kor\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,11 @@
+
+
+
+
+
+#ifndef __DISTRIBUTENETWORKMSGPARSER_H__
+#define __DISTRIBUTENETWORKMSGPARSER_H__
+void MP_USERCONNMsgParser(DWORD dwConnectionIndex, char* pMsg, DWORD dwLength);
+#endif //__DISTRIBUTENETWORKMSGPARSER_H__
+
+

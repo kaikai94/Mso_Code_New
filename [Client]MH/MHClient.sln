@@ -1,0 +1,70 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MHClient", "MHClient.vcproj", "{11C374EF-B577-491C-9E45-A6DC10AE142D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug Connect|Win32 = Debug Connect|Win32
+		Debug GM_TOOL China|Win32 = Debug GM_TOOL China|Win32
+		Debug GM_TOOL Japan|Win32 = Debug GM_TOOL Japan|Win32
+		Debug GM_TOOL Simple|Win32 = Debug GM_TOOL Simple|Win32
+		Debug GM_TOOL TL|Win32 = Debug GM_TOOL TL|Win32
+		Debug GM_TOOL|Win32 = Debug GM_TOOL|Win32
+		Debug TestClient|Win32 = Debug TestClient|Win32
+		Degug GM_TOOL HK|Win32 = Degug GM_TOOL HK|Win32
+		Release GM_TOOL|Win32 = Release GM_TOOL|Win32
+		Release|Win32 = Release|Win32
+		ReleaseHK|Win32 = ReleaseHK|Win32
+		ReleaseHK0611|Win32 = ReleaseHK0611|Win32
+		Semi Release HK 061129|Win32 = Semi Release HK 061129|Win32
+		Semi Release|Win32 = Semi Release|Win32
+		Semi ReleaseChina|Win32 = Semi ReleaseChina|Win32
+		Semi ReleaseHK|Win32 = Semi ReleaseHK|Win32
+		Semi ReleaseJapan|Win32 = Semi ReleaseJapan|Win32
+		Semi ReleaseTL|Win32 = Semi ReleaseTL|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.Debug Connect|Win32.ActiveCfg = Debug Connect|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.Debug Connect|Win32.Build.0 = Debug Connect|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.Debug GM_TOOL China|Win32.ActiveCfg = Debug GM_TOOL China|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.Debug GM_TOOL China|Win32.Build.0 = Debug GM_TOOL China|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.Debug GM_TOOL Japan|Win32.ActiveCfg = Debug GM_TOOL Japan|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.Debug GM_TOOL Japan|Win32.Build.0 = Debug GM_TOOL Japan|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.Debug GM_TOOL Simple|Win32.ActiveCfg = Debug GM_TOOL Simple|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.Debug GM_TOOL Simple|Win32.Build.0 = Debug GM_TOOL Simple|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.Debug GM_TOOL TL|Win32.ActiveCfg = Debug GM_TOOL|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.Debug GM_TOOL TL|Win32.Build.0 = Debug GM_TOOL|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.Debug GM_TOOL|Win32.ActiveCfg = Debug GM_TOOL|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.Debug GM_TOOL|Win32.Build.0 = Debug GM_TOOL|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.Debug TestClient|Win32.ActiveCfg = Debug TestClient|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.Debug TestClient|Win32.Build.0 = Debug TestClient|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.Degug GM_TOOL HK|Win32.ActiveCfg = Debug GM_TOOL|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.Degug GM_TOOL HK|Win32.Build.0 = Debug GM_TOOL|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.Release GM_TOOL|Win32.ActiveCfg = Release GM_TOOL|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.Release GM_TOOL|Win32.Build.0 = Release GM_TOOL|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.Release|Win32.ActiveCfg = Release|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.Release|Win32.Build.0 = Release|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.ReleaseHK|Win32.ActiveCfg = ReleaseHK0611|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.ReleaseHK|Win32.Build.0 = ReleaseHK0611|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.ReleaseHK0611|Win32.ActiveCfg = ReleaseHK0611|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.ReleaseHK0611|Win32.Build.0 = ReleaseHK0611|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.Semi Release HK 061129|Win32.ActiveCfg = Semi Release|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.Semi Release HK 061129|Win32.Build.0 = Semi Release|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.Semi Release|Win32.ActiveCfg = Semi Release|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.Semi Release|Win32.Build.0 = Semi Release|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.Semi ReleaseChina|Win32.ActiveCfg = Semi ReleaseChina|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.Semi ReleaseChina|Win32.Build.0 = Semi ReleaseChina|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.Semi ReleaseHK|Win32.ActiveCfg = Semi ReleaseJapan|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.Semi ReleaseHK|Win32.Build.0 = Semi ReleaseJapan|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.Semi ReleaseJapan|Win32.ActiveCfg = Semi ReleaseJapan|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.Semi ReleaseJapan|Win32.Build.0 = Semi ReleaseJapan|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.Semi ReleaseTL|Win32.ActiveCfg = Semi ReleaseJapan|Win32
+		{11C374EF-B577-491C-9E45-A6DC10AE142D}.Semi ReleaseTL|Win32.Build.0 = Semi ReleaseJapan|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,44 @@
+﻿Build started 28/1/2022 11:16:57 AM.
+     1>Project "D:\Mso_NEW\Mso_Code\[Lib]MHConsole\MHConsole.vcxproj" on node 9 (Rebuild target(s)).
+     1>ClCompile:
+         D:\Software\VS 2013\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /D _USRDLL /D MHCONSOLE_EXPORTS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release/" /Fd".\Release/vc120.pdb" /FR".\Release\\" /Gd /TP /analyze /analyze:plugin"D:\Software\VS 2013\VC\\bin\localespc.dll" /errorReport:prompt   /analyze:quiet cLinkedList.cpp MHConsole.cpp MiruquMemoryPool.cpp TConsole.cpp TConsoleFactory.cpp TList.cpp Utils.cpp
+         cLinkedList.cpp
+         MHConsole.cpp
+         MiruquMemoryPool.cpp
+         TConsole.cpp
+         TConsoleFactory.cpp
+         TList.cpp
+         Utils.cpp
+         Running Code Analysis for C/C++...
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D NDEBUG /D _VC80_UPGRADE=0x0710 /l"0x0412" /nologo /fo".\Release\Script.res" Script.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(D:\Mso_NEW\Mso_Code\[Lib]MHConsole\.\Release\MHConsole.dll) does not match the Linker's OutputFile property value (D:\Mso_NEW\DLL\MHConsole.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1197,5): warning MSB8030: The linker switch "Minimum Required Version" requires "SubSystem" to be set.  Without "SubSystem", the "Minimum Required Version" would not be passed to linker and could prevent to the output binary from running on older Operating Systems.
+       Link:
+         D:\Software\VS 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../DLL/MHConsole.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:".\MHConsole.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\Release/MHConsole.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Release/MHConsole.lib" /MACHINE:X86 /SAFESEH /DLL .\Release\Script.res
+         .\Release/cLinkedList.obj
+         .\Release/MHConsole.obj
+         .\Release/MiruquMemoryPool.obj
+         .\Release/TConsole.obj
+         .\Release/TConsoleFactory.obj
+         .\Release/TList.obj
+         .\Release/Utils.obj
+     1>.\MHConsole.def(4): warning LNK4017: DESCRIPTION statement not supported for the target platform; ignored
+            Creating library .\Release/MHConsole.lib and object .\Release/MHConsole.exp
+     1>MHConsole.exp : warning LNK4070: /OUT:MHConsold.dll directive in .EXP differs from output filename '../../DLL/MHConsole.dll'; ignoring directive
+         MHConsole.vcxproj -> D:\Mso_NEW\Mso_Code\[Lib]MHConsole\.\Release\MHConsole.dll
+       BscMake:
+         D:\Software\VS 2013\VC\bin\bscmake.exe /nologo /o".\Release\MHConsole.bsc" .\Release\cLinkedList.sbr .\Release\MHConsole.sbr .\Release\MiruquMemoryPool.sbr .\Release\TConsole.sbr .\Release\TConsoleFactory.sbr .\Release\TList.sbr .\Release\Utils.sbr
+     1>d:\mso_new\mso_code\[lib]mhconsole\mhconsole.cpp(96): warning C28251: Inconsistent annotation for 'DllGetClassObject': this instance has no annotations. See c:\program files (x86)\windows kits\8.1\include\um\combaseapi.h(1486). 
+     1>d:\mso_new\mso_code\[lib]mhconsole\tconsole.cpp(328): warning C28159: Consider using 'GetTickCount64' instead of 'GetTickCount'. Reason: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem
+     1>d:\mso_new\mso_code\[lib]mhconsole\tconsole.cpp(333): warning C28159: Consider using 'GetTickCount64' instead of 'GetTickCount'. Reason: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem
+     1>d:\mso_new\mso_code\[lib]mhconsole\tconsole.cpp(493): warning C6054: String 'buff' might not be zero-terminated.
+     1>d:\mso_new\mso_code\[lib]mhconsole\tlist.cpp(486): warning C6001: Using uninitialized memory 'oldFont'.
+     1>d:\mso_new\mso_code\[lib]mhconsole\clinkedlist.h(324): warning C6011: Dereferencing NULL pointer 'pCurrent'. 
+     1>d:\mso_new\mso_code\[lib]mhconsole\utils.cpp(20): warning C6102: Using 'wszCLSID' from failed function call at line '19'.
+     1>Done Building Project "D:\Mso_NEW\Mso_Code\[Lib]MHConsole\MHConsole.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:32.12

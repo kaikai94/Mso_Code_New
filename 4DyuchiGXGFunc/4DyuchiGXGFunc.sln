@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4DyuchiGXGFunc", "4DyuchiGXGFunc.vcproj", "{7BD1FB5D-DF78-4E78-BE14-DC38F1825333}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		for SSE Debug|Win32 = for SSE Debug|Win32
+		for SSE Release|Win32 = for SSE Release|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BD1FB5D-DF78-4E78-BE14-DC38F1825333}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7BD1FB5D-DF78-4E78-BE14-DC38F1825333}.Debug|Win32.Build.0 = Debug|Win32
+		{7BD1FB5D-DF78-4E78-BE14-DC38F1825333}.for SSE Debug|Win32.ActiveCfg = for SSE Debug|Win32
+		{7BD1FB5D-DF78-4E78-BE14-DC38F1825333}.for SSE Debug|Win32.Build.0 = for SSE Debug|Win32
+		{7BD1FB5D-DF78-4E78-BE14-DC38F1825333}.for SSE Release|Win32.ActiveCfg = for SSE Release|Win32
+		{7BD1FB5D-DF78-4E78-BE14-DC38F1825333}.for SSE Release|Win32.Build.0 = for SSE Release|Win32
+		{7BD1FB5D-DF78-4E78-BE14-DC38F1825333}.Release|Win32.ActiveCfg = Release|Win32
+		{7BD1FB5D-DF78-4E78-BE14-DC38F1825333}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+EndGlobal
